@@ -164,7 +164,7 @@ gdjs.micrometroCode.condition2IsTrue_1 = {val:false};
 gdjs.micrometroCode.condition3IsTrue_1 = {val:false};
 
 
-gdjs.micrometroCode.mapOfGDgdjs_46micrometroCode_46GDbtGMObjects2Objects = Hashtable.newFrom({"btGM": gdjs.micrometroCode.GDbtGMObjects2});gdjs.micrometroCode.userFunc0x7d3fd0 = function(runtimeScene) {
+gdjs.micrometroCode.mapOfGDgdjs_46micrometroCode_46GDbtGMObjects2Objects = Hashtable.newFrom({"btGM": gdjs.micrometroCode.GDbtGMObjects2});gdjs.micrometroCode.userFunc0x78d640 = function(runtimeScene) {
 "use strict";
 //Testa se for zero nao passa
 var res = generateNumberRandom(0, 25.5)
@@ -211,7 +211,7 @@ gdjs.micrometroCode.eventsList0 = function(runtimeScene) {
 {
 
 
-gdjs.micrometroCode.userFunc0x7d3fd0(runtimeScene);
+gdjs.micrometroCode.userFunc0x78d640(runtimeScene);
 
 }
 
@@ -242,7 +242,7 @@ gdjs.micrometroCode.condition0IsTrue_0.val = gdjs.evtTools.input.cursorOnObject(
 }if ( gdjs.micrometroCode.condition0IsTrue_0.val ) {
 {
 {gdjs.micrometroCode.conditionTrue_1 = gdjs.micrometroCode.condition1IsTrue_0;
-gdjs.micrometroCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(8065340);
+gdjs.micrometroCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(8081364);
 }
 }}
 if (gdjs.micrometroCode.condition1IsTrue_0.val) {
