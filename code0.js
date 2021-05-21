@@ -160,7 +160,7 @@ gdjs.micrometroCode.condition2IsTrue_1 = {val:false};
 gdjs.micrometroCode.condition3IsTrue_1 = {val:false};
 
 
-gdjs.micrometroCode.mapOfGDgdjs_46micrometroCode_46GDbtGMObjects2Objects = Hashtable.newFrom({"btGM": gdjs.micrometroCode.GDbtGMObjects2});gdjs.micrometroCode.userFunc0x6dfe00 = function(runtimeScene) {
+gdjs.micrometroCode.mapOfGDgdjs_46micrometroCode_46GDbtGMObjects2Objects = Hashtable.newFrom({"btGM": gdjs.micrometroCode.GDbtGMObjects2});gdjs.micrometroCode.userFunc0x798870 = function(runtimeScene) {
 "use strict";
 //Testa se for zero nao passa
 var res = generateNumberRandom(0, 25.5)
@@ -207,7 +207,7 @@ gdjs.micrometroCode.eventsList0 = function(runtimeScene) {
 {
 
 
-gdjs.micrometroCode.userFunc0x6dfe00(runtimeScene);
+gdjs.micrometroCode.userFunc0x798870(runtimeScene);
 
 }
 
@@ -468,13 +468,21 @@ gdjs.copyArray(runtimeScene.getObjects("r2"), gdjs.micrometroCode.GDr2Objects2);
 
 {
 gdjs.copyArray(runtimeScene.getObjects("Tambor"), gdjs.micrometroCode.GDTamborObjects2);
+gdjs.copyArray(runtimeScene.getObjects("avancarTambor"), gdjs.micrometroCode.GDavancarTamborObjects2);
 gdjs.copyArray(runtimeScene.getObjects("debug"), gdjs.micrometroCode.GDdebugObjects2);
 gdjs.copyArray(runtimeScene.getObjects("medicaoVal"), gdjs.micrometroCode.GDmedicaoValObjects2);
+gdjs.copyArray(runtimeScene.getObjects("voltaTambor"), gdjs.micrometroCode.GDvoltaTamborObjects2);
 {for(var i = 0, len = gdjs.micrometroCode.GDmedicaoValObjects2.length ;i < len;++i) {
     gdjs.micrometroCode.GDmedicaoValObjects2[i].setString(gdjs.evtTools.string.subStr(gdjs.evtTools.common.toString(((( gdjs.micrometroCode.GDTamborObjects2.length === 0 ) ? 0 :gdjs.micrometroCode.GDTamborObjects2[0].getPointX("")) - 883) / (gdjs.RuntimeObject.getVariableNumber(((gdjs.micrometroCode.GDTamborObjects2.length === 0 ) ? gdjs.VariablesContainer.badVariablesContainer : gdjs.micrometroCode.GDTamborObjects2[0].getVariables()).get("divDesvio")))), 0, 4));
 }
 }{for(var i = 0, len = gdjs.micrometroCode.GDdebugObjects2.length ;i < len;++i) {
     gdjs.micrometroCode.GDdebugObjects2[i].setString(gdjs.evtTools.string.subStr(gdjs.evtTools.common.toString(((( gdjs.micrometroCode.GDTamborObjects2.length === 0 ) ? 0 :gdjs.micrometroCode.GDTamborObjects2[0].getPointX("")) - 883) / (gdjs.RuntimeObject.getVariableNumber(((gdjs.micrometroCode.GDTamborObjects2.length === 0 ) ? gdjs.VariablesContainer.badVariablesContainer : gdjs.micrometroCode.GDTamborObjects2[0].getVariables()).get("divDesvio")))), 0, 4));
+}
+}{for(var i = 0, len = gdjs.micrometroCode.GDavancarTamborObjects2.length ;i < len;++i) {
+    gdjs.micrometroCode.GDavancarTamborObjects2[i].setOpacity(150);
+}
+}{for(var i = 0, len = gdjs.micrometroCode.GDvoltaTamborObjects2.length ;i < len;++i) {
+    gdjs.micrometroCode.GDvoltaTamborObjects2[i].setOpacity(150);
 }
 }}
 
