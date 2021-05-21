@@ -147,6 +147,10 @@ gdjs.micrometroCode.GDmVelObjects1= [];
 gdjs.micrometroCode.GDmVelObjects2= [];
 gdjs.micrometroCode.GDmVelObjects3= [];
 gdjs.micrometroCode.GDmVelObjects4= [];
+gdjs.micrometroCode.GDptZoomObjects1= [];
+gdjs.micrometroCode.GDptZoomObjects2= [];
+gdjs.micrometroCode.GDptZoomObjects3= [];
+gdjs.micrometroCode.GDptZoomObjects4= [];
 
 gdjs.micrometroCode.conditionTrue_0 = {val:false};
 gdjs.micrometroCode.condition0IsTrue_0 = {val:false};
@@ -160,7 +164,7 @@ gdjs.micrometroCode.condition2IsTrue_1 = {val:false};
 gdjs.micrometroCode.condition3IsTrue_1 = {val:false};
 
 
-gdjs.micrometroCode.mapOfGDgdjs_46micrometroCode_46GDbtGMObjects2Objects = Hashtable.newFrom({"btGM": gdjs.micrometroCode.GDbtGMObjects2});gdjs.micrometroCode.userFunc0x798870 = function(runtimeScene) {
+gdjs.micrometroCode.mapOfGDgdjs_46micrometroCode_46GDbtGMObjects2Objects = Hashtable.newFrom({"btGM": gdjs.micrometroCode.GDbtGMObjects2});gdjs.micrometroCode.userFunc0x7d3fd0 = function(runtimeScene) {
 "use strict";
 //Testa se for zero nao passa
 var res = generateNumberRandom(0, 25.5)
@@ -207,7 +211,7 @@ gdjs.micrometroCode.eventsList0 = function(runtimeScene) {
 {
 
 
-gdjs.micrometroCode.userFunc0x798870(runtimeScene);
+gdjs.micrometroCode.userFunc0x7d3fd0(runtimeScene);
 
 }
 
@@ -297,7 +301,9 @@ gdjs.micrometroCode.condition0IsTrue_0.val = gdjs.evtTools.input.cursorOnObject(
 gdjs.copyArray(runtimeScene.getObjects("avancarTambor"), gdjs.micrometroCode.GDavancarTamborObjects2);
 gdjs.copyArray(runtimeScene.getObjects("btCorrigir"), gdjs.micrometroCode.GDbtCorrigirObjects2);
 gdjs.copyArray(runtimeScene.getObjects("btGM"), gdjs.micrometroCode.GDbtGMObjects2);
+gdjs.copyArray(runtimeScene.getObjects("reduzir"), gdjs.micrometroCode.GDreduzirObjects2);
 gdjs.copyArray(runtimeScene.getObjects("voltaTambor"), gdjs.micrometroCode.GDvoltaTamborObjects2);
+gdjs.copyArray(runtimeScene.getObjects("zoom"), gdjs.micrometroCode.GDzoomObjects2);
 {for(var i = 0, len = gdjs.micrometroCode.GDbtGMObjects2.length ;i < len;++i) {
     gdjs.micrometroCode.GDbtGMObjects2[i].setAnimation(0);
 }
@@ -309,6 +315,12 @@ gdjs.copyArray(runtimeScene.getObjects("voltaTambor"), gdjs.micrometroCode.GDvol
 }
 }{for(var i = 0, len = gdjs.micrometroCode.GDvoltaTamborObjects2.length ;i < len;++i) {
     gdjs.micrometroCode.GDvoltaTamborObjects2[i].setAnimation(0);
+}
+}{for(var i = 0, len = gdjs.micrometroCode.GDzoomObjects2.length ;i < len;++i) {
+    gdjs.micrometroCode.GDzoomObjects2[i].setAnimation(0);
+}
+}{for(var i = 0, len = gdjs.micrometroCode.GDreduzirObjects2.length ;i < len;++i) {
+    gdjs.micrometroCode.GDreduzirObjects2[i].setAnimation(0);
 }
 }}
 
@@ -506,6 +518,7 @@ gdjs.copyArray(runtimeScene.getObjects("Tambor"), gdjs.micrometroCode.GDTamborOb
 /* Reuse gdjs.micrometroCode.GDavancarTamborObjects2 */
 gdjs.copyArray(runtimeScene.getObjects("cBot"), gdjs.micrometroCode.GDcBotObjects2);
 gdjs.copyArray(runtimeScene.getObjects("cTop"), gdjs.micrometroCode.GDcTopObjects2);
+gdjs.copyArray(runtimeScene.getObjects("ptZoom"), gdjs.micrometroCode.GDptZoomObjects2);
 gdjs.copyArray(runtimeScene.getObjects("r1"), gdjs.micrometroCode.GDr1Objects2);
 gdjs.copyArray(runtimeScene.getObjects("r2"), gdjs.micrometroCode.GDr2Objects2);
 gdjs.copyArray(runtimeScene.getObjects("voltaTambor"), gdjs.micrometroCode.GDvoltaTamborObjects2);
@@ -532,6 +545,9 @@ for(var i = 0, len = gdjs.micrometroCode.GDvoltaTamborObjects2.length ;i < len;+
 }
 for(var i = 0, len = gdjs.micrometroCode.GDcBotObjects2.length ;i < len;++i) {
     gdjs.micrometroCode.GDcBotObjects2[i].addForce((gdjs.RuntimeObject.getVariableNumber(((gdjs.micrometroCode.GDTamborObjects2.length === 0 ) ? gdjs.VariablesContainer.badVariablesContainer : gdjs.micrometroCode.GDTamborObjects2[0].getVariables()).get("velTambor"))), 0, 0);
+}
+for(var i = 0, len = gdjs.micrometroCode.GDptZoomObjects2.length ;i < len;++i) {
+    gdjs.micrometroCode.GDptZoomObjects2[i].addForce((gdjs.RuntimeObject.getVariableNumber(((gdjs.micrometroCode.GDTamborObjects2.length === 0 ) ? gdjs.VariablesContainer.badVariablesContainer : gdjs.micrometroCode.GDTamborObjects2[0].getVariables()).get("velTambor"))), 0, 0);
 }
 }{for(var i = 0, len = gdjs.micrometroCode.GDr1Objects2.length ;i < len;++i) {
     gdjs.micrometroCode.GDr1Objects2[i].addForce(0, (gdjs.RuntimeObject.getVariableNumber(((gdjs.micrometroCode.GDTamborObjects2.length === 0 ) ? gdjs.VariablesContainer.badVariablesContainer : gdjs.micrometroCode.GDTamborObjects2[0].getVariables()).get("velRegua"))), 0);
@@ -573,6 +589,7 @@ gdjs.copyArray(runtimeScene.getObjects("Tambor"), gdjs.micrometroCode.GDTamborOb
 gdjs.copyArray(runtimeScene.getObjects("avancarTambor"), gdjs.micrometroCode.GDavancarTamborObjects2);
 gdjs.copyArray(runtimeScene.getObjects("cBot"), gdjs.micrometroCode.GDcBotObjects2);
 gdjs.copyArray(runtimeScene.getObjects("cTop"), gdjs.micrometroCode.GDcTopObjects2);
+gdjs.copyArray(runtimeScene.getObjects("ptZoom"), gdjs.micrometroCode.GDptZoomObjects2);
 gdjs.copyArray(runtimeScene.getObjects("r1"), gdjs.micrometroCode.GDr1Objects2);
 gdjs.copyArray(runtimeScene.getObjects("r2"), gdjs.micrometroCode.GDr2Objects2);
 /* Reuse gdjs.micrometroCode.GDvoltaTamborObjects2 */
@@ -599,6 +616,9 @@ for(var i = 0, len = gdjs.micrometroCode.GDvoltaTamborObjects2.length ;i < len;+
 }
 for(var i = 0, len = gdjs.micrometroCode.GDcBotObjects2.length ;i < len;++i) {
     gdjs.micrometroCode.GDcBotObjects2[i].addForce(-((gdjs.RuntimeObject.getVariableNumber(((gdjs.micrometroCode.GDTamborObjects2.length === 0 ) ? gdjs.VariablesContainer.badVariablesContainer : gdjs.micrometroCode.GDTamborObjects2[0].getVariables()).get("velTambor")))), 0, 0);
+}
+for(var i = 0, len = gdjs.micrometroCode.GDptZoomObjects2.length ;i < len;++i) {
+    gdjs.micrometroCode.GDptZoomObjects2[i].addForce(-((gdjs.RuntimeObject.getVariableNumber(((gdjs.micrometroCode.GDTamborObjects2.length === 0 ) ? gdjs.VariablesContainer.badVariablesContainer : gdjs.micrometroCode.GDTamborObjects2[0].getVariables()).get("velTambor")))), 0, 0);
 }
 }{for(var i = 0, len = gdjs.micrometroCode.GDr1Objects2.length ;i < len;++i) {
     gdjs.micrometroCode.GDr1Objects2[i].addForce(0, -((gdjs.RuntimeObject.getVariableNumber(((gdjs.micrometroCode.GDTamborObjects2.length === 0 ) ? gdjs.VariablesContainer.badVariablesContainer : gdjs.micrometroCode.GDTamborObjects2[0].getVariables()).get("velRegua")))), 0);
@@ -657,7 +677,8 @@ gdjs.micrometroCode.condition1IsTrue_0.val = gdjs.evtTools.input.cursorOnObject(
 }}
 if (gdjs.micrometroCode.condition1IsTrue_0.val) {
 gdjs.copyArray(runtimeScene.getObjects("hidenct"), gdjs.micrometroCode.GDhidenctObjects2);
-gdjs.copyArray(runtimeScene.getObjects("reguaBaseFundo"), gdjs.micrometroCode.GDreguaBaseFundoObjects2);
+gdjs.copyArray(runtimeScene.getObjects("ptZoom"), gdjs.micrometroCode.GDptZoomObjects2);
+/* Reuse gdjs.micrometroCode.GDzoomObjects2 */
 {for(var i = 0, len = gdjs.micrometroCode.GDhidenctObjects2.length ;i < len;++i) {
     gdjs.micrometroCode.GDhidenctObjects2[i].setZOrder(30);
 }
@@ -665,7 +686,10 @@ gdjs.copyArray(runtimeScene.getObjects("reguaBaseFundo"), gdjs.micrometroCode.GD
     gdjs.micrometroCode.GDhidenctObjects2[i].setLayer("");
 }
 }{gdjs.evtTools.camera.setCameraZoom(runtimeScene, 2.8, "", 0);
-}{gdjs.evtTools.camera.centerCamera(runtimeScene, (gdjs.micrometroCode.GDreguaBaseFundoObjects2.length !== 0 ? gdjs.micrometroCode.GDreguaBaseFundoObjects2[0] : null), true, "", 0);
+}{gdjs.evtTools.camera.centerCamera(runtimeScene, (gdjs.micrometroCode.GDptZoomObjects2.length !== 0 ? gdjs.micrometroCode.GDptZoomObjects2[0] : null), true, "", 0);
+}{for(var i = 0, len = gdjs.micrometroCode.GDzoomObjects2.length ;i < len;++i) {
+    gdjs.micrometroCode.GDzoomObjects2[i].setAnimation(1);
+}
 }}
 
 }
@@ -686,6 +710,7 @@ gdjs.micrometroCode.condition1IsTrue_0.val = gdjs.evtTools.input.cursorOnObject(
 if (gdjs.micrometroCode.condition1IsTrue_0.val) {
 gdjs.copyArray(runtimeScene.getObjects("fundoQuadro"), gdjs.micrometroCode.GDfundoQuadroObjects2);
 gdjs.copyArray(runtimeScene.getObjects("hidenct"), gdjs.micrometroCode.GDhidenctObjects2);
+/* Reuse gdjs.micrometroCode.GDreduzirObjects2 */
 {gdjs.evtTools.camera.setCameraZoom(runtimeScene, 1, "", 0);
 }{gdjs.evtTools.camera.centerCamera(runtimeScene, (gdjs.micrometroCode.GDfundoQuadroObjects2.length !== 0 ? gdjs.micrometroCode.GDfundoQuadroObjects2[0] : null), true, "", 0);
 }{for(var i = 0, len = gdjs.micrometroCode.GDhidenctObjects2.length ;i < len;++i) {
@@ -693,6 +718,9 @@ gdjs.copyArray(runtimeScene.getObjects("hidenct"), gdjs.micrometroCode.GDhidenct
 }
 }{for(var i = 0, len = gdjs.micrometroCode.GDhidenctObjects2.length ;i < len;++i) {
     gdjs.micrometroCode.GDhidenctObjects2[i].setLayer("UX");
+}
+}{for(var i = 0, len = gdjs.micrometroCode.GDreduzirObjects2.length ;i < len;++i) {
+    gdjs.micrometroCode.GDreduzirObjects2[i].setAnimation(1);
 }
 }}
 
@@ -902,6 +930,10 @@ gdjs.micrometroCode.GDmVelObjects1.length = 0;
 gdjs.micrometroCode.GDmVelObjects2.length = 0;
 gdjs.micrometroCode.GDmVelObjects3.length = 0;
 gdjs.micrometroCode.GDmVelObjects4.length = 0;
+gdjs.micrometroCode.GDptZoomObjects1.length = 0;
+gdjs.micrometroCode.GDptZoomObjects2.length = 0;
+gdjs.micrometroCode.GDptZoomObjects3.length = 0;
+gdjs.micrometroCode.GDptZoomObjects4.length = 0;
 
 gdjs.micrometroCode.eventsList7(runtimeScene);
 return;
