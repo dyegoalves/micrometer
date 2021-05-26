@@ -47,6 +47,14 @@ gdjs.micrometroCode.GDmedicaoTxtObjects1= [];
 gdjs.micrometroCode.GDmedicaoTxtObjects2= [];
 gdjs.micrometroCode.GDmedicaoTxtObjects3= [];
 gdjs.micrometroCode.GDmedicaoTxtObjects4= [];
+gdjs.micrometroCode.GDerroValObjects1= [];
+gdjs.micrometroCode.GDerroValObjects2= [];
+gdjs.micrometroCode.GDerroValObjects3= [];
+gdjs.micrometroCode.GDerroValObjects4= [];
+gdjs.micrometroCode.GDacertoValObjects1= [];
+gdjs.micrometroCode.GDacertoValObjects2= [];
+gdjs.micrometroCode.GDacertoValObjects3= [];
+gdjs.micrometroCode.GDacertoValObjects4= [];
 gdjs.micrometroCode.GDmedicaoValObjects1= [];
 gdjs.micrometroCode.GDmedicaoValObjects2= [];
 gdjs.micrometroCode.GDmedicaoValObjects3= [];
@@ -59,10 +67,10 @@ gdjs.micrometroCode.GDmedidaGeradaTXtObjects1= [];
 gdjs.micrometroCode.GDmedidaGeradaTXtObjects2= [];
 gdjs.micrometroCode.GDmedidaGeradaTXtObjects3= [];
 gdjs.micrometroCode.GDmedidaGeradaTXtObjects4= [];
-gdjs.micrometroCode.GDacertosErrosTxtObjects1= [];
-gdjs.micrometroCode.GDacertosErrosTxtObjects2= [];
-gdjs.micrometroCode.GDacertosErrosTxtObjects3= [];
-gdjs.micrometroCode.GDacertosErrosTxtObjects4= [];
+gdjs.micrometroCode.GDQuantidadesTxtObjects1= [];
+gdjs.micrometroCode.GDQuantidadesTxtObjects2= [];
+gdjs.micrometroCode.GDQuantidadesTxtObjects3= [];
+gdjs.micrometroCode.GDQuantidadesTxtObjects4= [];
 gdjs.micrometroCode.GDreguaBaseFundoObjects1= [];
 gdjs.micrometroCode.GDreguaBaseFundoObjects2= [];
 gdjs.micrometroCode.GDreguaBaseFundoObjects3= [];
@@ -99,10 +107,6 @@ gdjs.micrometroCode.GDcBotObjects1= [];
 gdjs.micrometroCode.GDcBotObjects2= [];
 gdjs.micrometroCode.GDcBotObjects3= [];
 gdjs.micrometroCode.GDcBotObjects4= [];
-gdjs.micrometroCode.GDdebugObjects1= [];
-gdjs.micrometroCode.GDdebugObjects2= [];
-gdjs.micrometroCode.GDdebugObjects3= [];
-gdjs.micrometroCode.GDdebugObjects4= [];
 gdjs.micrometroCode.GDtoqueVoltarObjects1= [];
 gdjs.micrometroCode.GDtoqueVoltarObjects2= [];
 gdjs.micrometroCode.GDtoqueVoltarObjects3= [];
@@ -127,30 +131,30 @@ gdjs.micrometroCode.GDvoltaTamborObjects1= [];
 gdjs.micrometroCode.GDvoltaTamborObjects2= [];
 gdjs.micrometroCode.GDvoltaTamborObjects3= [];
 gdjs.micrometroCode.GDvoltaTamborObjects4= [];
-gdjs.micrometroCode.GDvel10xObjects1= [];
-gdjs.micrometroCode.GDvel10xObjects2= [];
-gdjs.micrometroCode.GDvel10xObjects3= [];
-gdjs.micrometroCode.GDvel10xObjects4= [];
-gdjs.micrometroCode.GDvel5xObjects1= [];
-gdjs.micrometroCode.GDvel5xObjects2= [];
-gdjs.micrometroCode.GDvel5xObjects3= [];
-gdjs.micrometroCode.GDvel5xObjects4= [];
-gdjs.micrometroCode.GDvel1xObjects1= [];
-gdjs.micrometroCode.GDvel1xObjects2= [];
-gdjs.micrometroCode.GDvel1xObjects3= [];
-gdjs.micrometroCode.GDvel1xObjects4= [];
-gdjs.micrometroCode.GDtxtTituloVelocidadeTamborObjects1= [];
-gdjs.micrometroCode.GDtxtTituloVelocidadeTamborObjects2= [];
-gdjs.micrometroCode.GDtxtTituloVelocidadeTamborObjects3= [];
-gdjs.micrometroCode.GDtxtTituloVelocidadeTamborObjects4= [];
-gdjs.micrometroCode.GDmVelObjects1= [];
-gdjs.micrometroCode.GDmVelObjects2= [];
-gdjs.micrometroCode.GDmVelObjects3= [];
-gdjs.micrometroCode.GDmVelObjects4= [];
+gdjs.micrometroCode.GDtxtTituloReduzirZoomObjects1= [];
+gdjs.micrometroCode.GDtxtTituloReduzirZoomObjects2= [];
+gdjs.micrometroCode.GDtxtTituloReduzirZoomObjects3= [];
+gdjs.micrometroCode.GDtxtTituloReduzirZoomObjects4= [];
+gdjs.micrometroCode.GDtxtTituloMaisZoomObjects1= [];
+gdjs.micrometroCode.GDtxtTituloMaisZoomObjects2= [];
+gdjs.micrometroCode.GDtxtTituloMaisZoomObjects3= [];
+gdjs.micrometroCode.GDtxtTituloMaisZoomObjects4= [];
 gdjs.micrometroCode.GDptZoomObjects1= [];
 gdjs.micrometroCode.GDptZoomObjects2= [];
 gdjs.micrometroCode.GDptZoomObjects3= [];
 gdjs.micrometroCode.GDptZoomObjects4= [];
+gdjs.micrometroCode.GDpinoTamborObjects1= [];
+gdjs.micrometroCode.GDpinoTamborObjects2= [];
+gdjs.micrometroCode.GDpinoTamborObjects3= [];
+gdjs.micrometroCode.GDpinoTamborObjects4= [];
+gdjs.micrometroCode.GDescalaReguaBaseObjects1= [];
+gdjs.micrometroCode.GDescalaReguaBaseObjects2= [];
+gdjs.micrometroCode.GDescalaReguaBaseObjects3= [];
+gdjs.micrometroCode.GDescalaReguaBaseObjects4= [];
+gdjs.micrometroCode.GDalertMsgObjects1= [];
+gdjs.micrometroCode.GDalertMsgObjects2= [];
+gdjs.micrometroCode.GDalertMsgObjects3= [];
+gdjs.micrometroCode.GDalertMsgObjects4= [];
 
 gdjs.micrometroCode.conditionTrue_0 = {val:false};
 gdjs.micrometroCode.condition0IsTrue_0 = {val:false};
@@ -164,12 +168,17 @@ gdjs.micrometroCode.condition2IsTrue_1 = {val:false};
 gdjs.micrometroCode.condition3IsTrue_1 = {val:false};
 
 
-gdjs.micrometroCode.mapOfGDgdjs_46micrometroCode_46GDbtGMObjects2Objects = Hashtable.newFrom({"btGM": gdjs.micrometroCode.GDbtGMObjects2});gdjs.micrometroCode.userFunc0x78d640 = function(runtimeScene) {
+gdjs.micrometroCode.mapOfGDgdjs_46micrometroCode_46GDbtGMObjects2Objects = Hashtable.newFrom({"btGM": gdjs.micrometroCode.GDbtGMObjects2});gdjs.micrometroCode.userFunc0x7a22a8 = function(runtimeScene) {
 "use strict";
 //Testa se for zero nao passa
-var res = generateNumberRandom(0, 25.5)
+var res = generateNumberRandom(0, 5.0)
+
 if (res == 0) {
-    res = generateNumberRandom(0, 25.5)
+    res = generateNumberRandom(0, 5.0)
+}
+
+if (res > 25) {
+    res = generateNumberRandom(0, 5.0)
 }
 
 //Funcao Gera numero inteiros ou floats 
@@ -211,7 +220,7 @@ gdjs.micrometroCode.eventsList0 = function(runtimeScene) {
 {
 
 
-gdjs.micrometroCode.userFunc0x78d640(runtimeScene);
+gdjs.micrometroCode.userFunc0x7a22a8(runtimeScene);
 
 }
 
@@ -229,7 +238,150 @@ gdjs.copyArray(runtimeScene.getObjects("medidaGeradaTXt"), gdjs.micrometroCode.G
 }
 
 
-};gdjs.micrometroCode.mapOfGDgdjs_46micrometroCode_46GDbtCorrigirObjects2Objects = Hashtable.newFrom({"btCorrigir": gdjs.micrometroCode.GDbtCorrigirObjects2});gdjs.micrometroCode.mapOfGDgdjs_46micrometroCode_46GDvoltaTamborObjects1Objects = Hashtable.newFrom({"voltaTambor": gdjs.micrometroCode.GDvoltaTamborObjects1});gdjs.micrometroCode.eventsList1 = function(runtimeScene) {
+};gdjs.micrometroCode.mapOfGDgdjs_46micrometroCode_46GDbtCorrigirObjects1Objects = Hashtable.newFrom({"btCorrigir": gdjs.micrometroCode.GDbtCorrigirObjects1});gdjs.micrometroCode.eventsList1 = function(runtimeScene) {
+
+{
+
+
+{
+/* Reuse gdjs.micrometroCode.GDTamborObjects2 */
+gdjs.copyArray(runtimeScene.getObjects("acertoVal"), gdjs.micrometroCode.GDacertoValObjects2);
+{for(var i = 0, len = gdjs.micrometroCode.GDacertoValObjects2.length ;i < len;++i) {
+    gdjs.micrometroCode.GDacertoValObjects2[i].setString((gdjs.RuntimeObject.getVariableString(((gdjs.micrometroCode.GDTamborObjects2.length === 0 ) ? gdjs.VariablesContainer.badVariablesContainer : gdjs.micrometroCode.GDTamborObjects2[0].getVariables()).get("acertoQtd"))));
+}
+}}
+
+}
+
+
+};gdjs.micrometroCode.eventsList2 = function(runtimeScene) {
+
+{
+
+
+{
+/* Reuse gdjs.micrometroCode.GDTamborObjects1 */
+gdjs.copyArray(runtimeScene.getObjects("erroVal"), gdjs.micrometroCode.GDerroValObjects1);
+{for(var i = 0, len = gdjs.micrometroCode.GDerroValObjects1.length ;i < len;++i) {
+    gdjs.micrometroCode.GDerroValObjects1[i].setString((gdjs.RuntimeObject.getVariableString(((gdjs.micrometroCode.GDTamborObjects1.length === 0 ) ? gdjs.VariablesContainer.badVariablesContainer : gdjs.micrometroCode.GDTamborObjects1[0].getVariables()).get("erroQtd"))));
+}
+}}
+
+}
+
+
+};gdjs.micrometroCode.eventsList3 = function(runtimeScene) {
+
+{
+
+gdjs.copyArray(runtimeScene.getObjects("medicaoVal"), gdjs.micrometroCode.GDmedicaoValObjects2);
+gdjs.copyArray(gdjs.micrometroCode.GDmedidaGeradaTXtObjects1, gdjs.micrometroCode.GDmedidaGeradaTXtObjects2);
+
+
+gdjs.micrometroCode.condition0IsTrue_0.val = false;
+{
+for(var i = 0, k = 0, l = gdjs.micrometroCode.GDmedicaoValObjects2.length;i<l;++i) {
+    if ( gdjs.micrometroCode.GDmedicaoValObjects2[i].getString() == (( gdjs.micrometroCode.GDmedidaGeradaTXtObjects2.length === 0 ) ? "" :gdjs.micrometroCode.GDmedidaGeradaTXtObjects2[0].getString()) ) {
+        gdjs.micrometroCode.condition0IsTrue_0.val = true;
+        gdjs.micrometroCode.GDmedicaoValObjects2[k] = gdjs.micrometroCode.GDmedicaoValObjects2[i];
+        ++k;
+    }
+}
+gdjs.micrometroCode.GDmedicaoValObjects2.length = k;}if (gdjs.micrometroCode.condition0IsTrue_0.val) {
+gdjs.copyArray(runtimeScene.getObjects("Tambor"), gdjs.micrometroCode.GDTamborObjects2);
+{for(var i = 0, len = gdjs.micrometroCode.GDTamborObjects2.length ;i < len;++i) {
+    gdjs.micrometroCode.GDTamborObjects2[i].returnVariable(gdjs.micrometroCode.GDTamborObjects2[i].getVariables().get("acertoQtd")).add(1);
+}
+}
+{ //Subevents
+gdjs.micrometroCode.eventsList1(runtimeScene);} //End of subevents
+}
+
+}
+
+
+{
+
+gdjs.copyArray(runtimeScene.getObjects("medicaoVal"), gdjs.micrometroCode.GDmedicaoValObjects1);
+/* Reuse gdjs.micrometroCode.GDmedidaGeradaTXtObjects1 */
+
+gdjs.micrometroCode.condition0IsTrue_0.val = false;
+{
+for(var i = 0, k = 0, l = gdjs.micrometroCode.GDmedicaoValObjects1.length;i<l;++i) {
+    if ( !(gdjs.micrometroCode.GDmedicaoValObjects1[i].getString() == (( gdjs.micrometroCode.GDmedidaGeradaTXtObjects1.length === 0 ) ? "" :gdjs.micrometroCode.GDmedidaGeradaTXtObjects1[0].getString())) ) {
+        gdjs.micrometroCode.condition0IsTrue_0.val = true;
+        gdjs.micrometroCode.GDmedicaoValObjects1[k] = gdjs.micrometroCode.GDmedicaoValObjects1[i];
+        ++k;
+    }
+}
+gdjs.micrometroCode.GDmedicaoValObjects1.length = k;}if (gdjs.micrometroCode.condition0IsTrue_0.val) {
+gdjs.copyArray(runtimeScene.getObjects("Tambor"), gdjs.micrometroCode.GDTamborObjects1);
+{for(var i = 0, len = gdjs.micrometroCode.GDTamborObjects1.length ;i < len;++i) {
+    gdjs.micrometroCode.GDTamborObjects1[i].returnVariable(gdjs.micrometroCode.GDTamborObjects1[i].getVariables().get("erroQtd")).add(1);
+}
+}
+{ //Subevents
+gdjs.micrometroCode.eventsList2(runtimeScene);} //End of subevents
+}
+
+}
+
+
+};gdjs.micrometroCode.eventsList4 = function(runtimeScene) {
+
+{
+
+gdjs.copyArray(runtimeScene.getObjects("medidaGeradaTXt"), gdjs.micrometroCode.GDmedidaGeradaTXtObjects2);
+
+gdjs.micrometroCode.condition0IsTrue_0.val = false;
+{
+for(var i = 0, k = 0, l = gdjs.micrometroCode.GDmedidaGeradaTXtObjects2.length;i<l;++i) {
+    if ( gdjs.micrometroCode.GDmedidaGeradaTXtObjects2[i].getString() < "0" ) {
+        gdjs.micrometroCode.condition0IsTrue_0.val = true;
+        gdjs.micrometroCode.GDmedidaGeradaTXtObjects2[k] = gdjs.micrometroCode.GDmedidaGeradaTXtObjects2[i];
+        ++k;
+    }
+}
+gdjs.micrometroCode.GDmedidaGeradaTXtObjects2.length = k;}if (gdjs.micrometroCode.condition0IsTrue_0.val) {
+gdjs.copyArray(runtimeScene.getObjects("alertMsg"), gdjs.micrometroCode.GDalertMsgObjects2);
+{for(var i = 0, len = gdjs.micrometroCode.GDalertMsgObjects2.length ;i < len;++i) {
+    gdjs.micrometroCode.GDalertMsgObjects2[i].setPosition((gdjs.RuntimeObject.getVariableNumber(gdjs.micrometroCode.GDalertMsgObjects2[i].getVariables().get("pox"))),(gdjs.RuntimeObject.getVariableNumber(gdjs.micrometroCode.GDalertMsgObjects2[i].getVariables().get("poy"))));
+}
+}{for(var i = 0, len = gdjs.micrometroCode.GDalertMsgObjects2.length ;i < len;++i) {
+    gdjs.micrometroCode.GDalertMsgObjects2[i].setOpacity(gdjs.randomInRange(150, 255));
+}
+}}
+
+}
+
+
+{
+
+gdjs.copyArray(runtimeScene.getObjects("medidaGeradaTXt"), gdjs.micrometroCode.GDmedidaGeradaTXtObjects1);
+
+gdjs.micrometroCode.condition0IsTrue_0.val = false;
+{
+for(var i = 0, k = 0, l = gdjs.micrometroCode.GDmedidaGeradaTXtObjects1.length;i<l;++i) {
+    if ( !(gdjs.micrometroCode.GDmedidaGeradaTXtObjects1[i].getString() < "0") ) {
+        gdjs.micrometroCode.condition0IsTrue_0.val = true;
+        gdjs.micrometroCode.GDmedidaGeradaTXtObjects1[k] = gdjs.micrometroCode.GDmedidaGeradaTXtObjects1[i];
+        ++k;
+    }
+}
+gdjs.micrometroCode.GDmedidaGeradaTXtObjects1.length = k;}if (gdjs.micrometroCode.condition0IsTrue_0.val) {
+gdjs.copyArray(runtimeScene.getObjects("alertMsg"), gdjs.micrometroCode.GDalertMsgObjects1);
+{for(var i = 0, len = gdjs.micrometroCode.GDalertMsgObjects1.length ;i < len;++i) {
+    gdjs.micrometroCode.GDalertMsgObjects1[i].hide();
+}
+}
+{ //Subevents
+gdjs.micrometroCode.eventsList3(runtimeScene);} //End of subevents
+}
+
+}
+
+
+};gdjs.micrometroCode.eventsList5 = function(runtimeScene) {
 
 {
 
@@ -242,7 +394,7 @@ gdjs.micrometroCode.condition0IsTrue_0.val = gdjs.evtTools.input.cursorOnObject(
 }if ( gdjs.micrometroCode.condition0IsTrue_0.val ) {
 {
 {gdjs.micrometroCode.conditionTrue_1 = gdjs.micrometroCode.condition1IsTrue_0;
-gdjs.micrometroCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(8081364);
+gdjs.micrometroCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(8096916);
 }
 }}
 if (gdjs.micrometroCode.condition1IsTrue_0.val) {
@@ -260,39 +412,39 @@ gdjs.micrometroCode.eventsList0(runtimeScene);} //End of subevents
 
 {
 
-gdjs.copyArray(runtimeScene.getObjects("btCorrigir"), gdjs.micrometroCode.GDbtCorrigirObjects2);
+gdjs.copyArray(runtimeScene.getObjects("btCorrigir"), gdjs.micrometroCode.GDbtCorrigirObjects1);
 
 gdjs.micrometroCode.condition0IsTrue_0.val = false;
+gdjs.micrometroCode.condition1IsTrue_0.val = false;
 {
-gdjs.micrometroCode.condition0IsTrue_0.val = gdjs.evtTools.input.cursorOnObject(gdjs.micrometroCode.mapOfGDgdjs_46micrometroCode_46GDbtCorrigirObjects2Objects, runtimeScene, true, false);
-}if (gdjs.micrometroCode.condition0IsTrue_0.val) {
-/* Reuse gdjs.micrometroCode.GDbtCorrigirObjects2 */
-{for(var i = 0, len = gdjs.micrometroCode.GDbtCorrigirObjects2.length ;i < len;++i) {
-    gdjs.micrometroCode.GDbtCorrigirObjects2[i].setAnimation(1);
+gdjs.micrometroCode.condition0IsTrue_0.val = gdjs.evtTools.input.cursorOnObject(gdjs.micrometroCode.mapOfGDgdjs_46micrometroCode_46GDbtCorrigirObjects1Objects, runtimeScene, true, false);
+}if ( gdjs.micrometroCode.condition0IsTrue_0.val ) {
+{
+{gdjs.micrometroCode.conditionTrue_1 = gdjs.micrometroCode.condition1IsTrue_0;
+gdjs.micrometroCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(8351740);
 }
 }}
+if (gdjs.micrometroCode.condition1IsTrue_0.val) {
+/* Reuse gdjs.micrometroCode.GDbtCorrigirObjects1 */
+{for(var i = 0, len = gdjs.micrometroCode.GDbtCorrigirObjects1.length ;i < len;++i) {
+    gdjs.micrometroCode.GDbtCorrigirObjects1[i].setAnimation(1);
+}
+}
+{ //Subevents
+gdjs.micrometroCode.eventsList4(runtimeScene);} //End of subevents
+}
 
 }
 
+
+};gdjs.micrometroCode.eventsList6 = function(runtimeScene) {
 
 {
 
-gdjs.copyArray(runtimeScene.getObjects("voltaTambor"), gdjs.micrometroCode.GDvoltaTamborObjects1);
 
-gdjs.micrometroCode.condition0IsTrue_0.val = false;
-{
-gdjs.micrometroCode.condition0IsTrue_0.val = gdjs.evtTools.input.cursorOnObject(gdjs.micrometroCode.mapOfGDgdjs_46micrometroCode_46GDvoltaTamborObjects1Objects, runtimeScene, true, false);
-}if (gdjs.micrometroCode.condition0IsTrue_0.val) {
-/* Reuse gdjs.micrometroCode.GDvoltaTamborObjects1 */
-{for(var i = 0, len = gdjs.micrometroCode.GDvoltaTamborObjects1.length ;i < len;++i) {
-    gdjs.micrometroCode.GDvoltaTamborObjects1[i].setAnimation(1);
-}
-}}
 
 }
 
-
-};gdjs.micrometroCode.eventsList2 = function(runtimeScene) {
 
 {
 
@@ -330,44 +482,51 @@ gdjs.copyArray(runtimeScene.getObjects("zoom"), gdjs.micrometroCode.GDzoomObject
 {
 
 
+
+}
+
+
+{
+
+
 gdjs.micrometroCode.condition0IsTrue_0.val = false;
 {
 gdjs.micrometroCode.condition0IsTrue_0.val = gdjs.evtTools.input.isMouseButtonPressed(runtimeScene, "Left");
 }if (gdjs.micrometroCode.condition0IsTrue_0.val) {
 
 { //Subevents
-gdjs.micrometroCode.eventsList1(runtimeScene);} //End of subevents
+gdjs.micrometroCode.eventsList5(runtimeScene);} //End of subevents
 }
 
 }
 
 
-};gdjs.micrometroCode.mapOfGDgdjs_46micrometroCode_46GDavancarTamborObjects2Objects = Hashtable.newFrom({"avancarTambor": gdjs.micrometroCode.GDavancarTamborObjects2});gdjs.micrometroCode.mapOfGDgdjs_46micrometroCode_46GDvoltaTamborObjects2Objects = Hashtable.newFrom({"voltaTambor": gdjs.micrometroCode.GDvoltaTamborObjects2});gdjs.micrometroCode.mapOfGDgdjs_46micrometroCode_46GDr1Objects2Objects = Hashtable.newFrom({"r1": gdjs.micrometroCode.GDr1Objects2});gdjs.micrometroCode.mapOfGDgdjs_46micrometroCode_46GDtoqueAvancarObjects2Objects = Hashtable.newFrom({"toqueAvancar": gdjs.micrometroCode.GDtoqueAvancarObjects2});gdjs.micrometroCode.mapOfGDgdjs_46micrometroCode_46GDr1Objects2Objects = Hashtable.newFrom({"r1": gdjs.micrometroCode.GDr1Objects2});gdjs.micrometroCode.mapOfGDgdjs_46micrometroCode_46GDr2Objects2Objects = Hashtable.newFrom({"r2": gdjs.micrometroCode.GDr2Objects2});gdjs.micrometroCode.mapOfGDgdjs_46micrometroCode_46GDtoqueAvancarObjects2Objects = Hashtable.newFrom({"toqueAvancar": gdjs.micrometroCode.GDtoqueAvancarObjects2});gdjs.micrometroCode.mapOfGDgdjs_46micrometroCode_46GDr2Objects2Objects = Hashtable.newFrom({"r2": gdjs.micrometroCode.GDr2Objects2});gdjs.micrometroCode.mapOfGDgdjs_46micrometroCode_46GDr2Objects2Objects = Hashtable.newFrom({"r2": gdjs.micrometroCode.GDr2Objects2});gdjs.micrometroCode.mapOfGDgdjs_46micrometroCode_46GDtoqueVoltarObjects2Objects = Hashtable.newFrom({"toqueVoltar": gdjs.micrometroCode.GDtoqueVoltarObjects2});gdjs.micrometroCode.mapOfGDgdjs_46micrometroCode_46GDr2Objects2Objects = Hashtable.newFrom({"r2": gdjs.micrometroCode.GDr2Objects2});gdjs.micrometroCode.mapOfGDgdjs_46micrometroCode_46GDr1Objects2Objects = Hashtable.newFrom({"r1": gdjs.micrometroCode.GDr1Objects2});gdjs.micrometroCode.mapOfGDgdjs_46micrometroCode_46GDtoqueVoltarObjects2Objects = Hashtable.newFrom({"toqueVoltar": gdjs.micrometroCode.GDtoqueVoltarObjects2});gdjs.micrometroCode.mapOfGDgdjs_46micrometroCode_46GDr1Objects2Objects = Hashtable.newFrom({"r1": gdjs.micrometroCode.GDr1Objects2});gdjs.micrometroCode.eventsList3 = function(runtimeScene) {
+};gdjs.micrometroCode.mapOfGDgdjs_46micrometroCode_46GDavancarTamborObjects2Objects = Hashtable.newFrom({"avancarTambor": gdjs.micrometroCode.GDavancarTamborObjects2});gdjs.micrometroCode.mapOfGDgdjs_46micrometroCode_46GDvoltaTamborObjects2Objects = Hashtable.newFrom({"voltaTambor": gdjs.micrometroCode.GDvoltaTamborObjects2});gdjs.micrometroCode.mapOfGDgdjs_46micrometroCode_46GDr1Objects3Objects = Hashtable.newFrom({"r1": gdjs.micrometroCode.GDr1Objects3});gdjs.micrometroCode.mapOfGDgdjs_46micrometroCode_46GDtoqueAvancarObjects3Objects = Hashtable.newFrom({"toqueAvancar": gdjs.micrometroCode.GDtoqueAvancarObjects3});gdjs.micrometroCode.mapOfGDgdjs_46micrometroCode_46GDr1Objects3Objects = Hashtable.newFrom({"r1": gdjs.micrometroCode.GDr1Objects3});gdjs.micrometroCode.mapOfGDgdjs_46micrometroCode_46GDr2Objects3Objects = Hashtable.newFrom({"r2": gdjs.micrometroCode.GDr2Objects3});gdjs.micrometroCode.mapOfGDgdjs_46micrometroCode_46GDtoqueAvancarObjects3Objects = Hashtable.newFrom({"toqueAvancar": gdjs.micrometroCode.GDtoqueAvancarObjects3});gdjs.micrometroCode.mapOfGDgdjs_46micrometroCode_46GDr2Objects3Objects = Hashtable.newFrom({"r2": gdjs.micrometroCode.GDr2Objects3});gdjs.micrometroCode.mapOfGDgdjs_46micrometroCode_46GDr2Objects3Objects = Hashtable.newFrom({"r2": gdjs.micrometroCode.GDr2Objects3});gdjs.micrometroCode.mapOfGDgdjs_46micrometroCode_46GDtoqueVoltarObjects3Objects = Hashtable.newFrom({"toqueVoltar": gdjs.micrometroCode.GDtoqueVoltarObjects3});gdjs.micrometroCode.mapOfGDgdjs_46micrometroCode_46GDr2Objects3Objects = Hashtable.newFrom({"r2": gdjs.micrometroCode.GDr2Objects3});gdjs.micrometroCode.mapOfGDgdjs_46micrometroCode_46GDr1Objects2Objects = Hashtable.newFrom({"r1": gdjs.micrometroCode.GDr1Objects2});gdjs.micrometroCode.mapOfGDgdjs_46micrometroCode_46GDtoqueVoltarObjects2Objects = Hashtable.newFrom({"toqueVoltar": gdjs.micrometroCode.GDtoqueVoltarObjects2});gdjs.micrometroCode.mapOfGDgdjs_46micrometroCode_46GDr1Objects2Objects = Hashtable.newFrom({"r1": gdjs.micrometroCode.GDr1Objects2});gdjs.micrometroCode.eventsList7 = function(runtimeScene) {
 
 {
 
-gdjs.copyArray(runtimeScene.getObjects("r1"), gdjs.micrometroCode.GDr1Objects2);
-gdjs.copyArray(runtimeScene.getObjects("toqueAvancar"), gdjs.micrometroCode.GDtoqueAvancarObjects2);
+gdjs.copyArray(runtimeScene.getObjects("r1"), gdjs.micrometroCode.GDr1Objects3);
+gdjs.copyArray(runtimeScene.getObjects("toqueAvancar"), gdjs.micrometroCode.GDtoqueAvancarObjects3);
 
 gdjs.micrometroCode.condition0IsTrue_0.val = false;
 {
-gdjs.micrometroCode.condition0IsTrue_0.val = gdjs.evtTools.object.hitBoxesCollisionTest(gdjs.micrometroCode.mapOfGDgdjs_46micrometroCode_46GDr1Objects2Objects, gdjs.micrometroCode.mapOfGDgdjs_46micrometroCode_46GDtoqueAvancarObjects2Objects, false, runtimeScene, false);
+gdjs.micrometroCode.condition0IsTrue_0.val = gdjs.evtTools.object.hitBoxesCollisionTest(gdjs.micrometroCode.mapOfGDgdjs_46micrometroCode_46GDr1Objects3Objects, gdjs.micrometroCode.mapOfGDgdjs_46micrometroCode_46GDtoqueAvancarObjects3Objects, false, runtimeScene, false);
 }if (gdjs.micrometroCode.condition0IsTrue_0.val) {
-gdjs.copyArray(runtimeScene.getObjects("Tambor"), gdjs.micrometroCode.GDTamborObjects2);
-/* Reuse gdjs.micrometroCode.GDr1Objects2 */
-gdjs.copyArray(runtimeScene.getObjects("r2"), gdjs.micrometroCode.GDr2Objects2);
-{for(var i = 0, len = gdjs.micrometroCode.GDr1Objects2.length ;i < len;++i) {
-    gdjs.micrometroCode.GDr1Objects2[i].deleteFromScene(runtimeScene);
+gdjs.copyArray(runtimeScene.getObjects("Tambor"), gdjs.micrometroCode.GDTamborObjects3);
+/* Reuse gdjs.micrometroCode.GDr1Objects3 */
+gdjs.copyArray(runtimeScene.getObjects("r2"), gdjs.micrometroCode.GDr2Objects3);
+{for(var i = 0, len = gdjs.micrometroCode.GDr1Objects3.length ;i < len;++i) {
+    gdjs.micrometroCode.GDr1Objects3[i].deleteFromScene(runtimeScene);
 }
-}{gdjs.evtTools.object.createObjectOnScene((typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : runtimeScene), gdjs.micrometroCode.mapOfGDgdjs_46micrometroCode_46GDr1Objects2Objects, (( gdjs.micrometroCode.GDr2Objects2.length === 0 ) ? 0 :gdjs.micrometroCode.GDr2Objects2[0].getPointX("")), (( gdjs.micrometroCode.GDr2Objects2.length === 0 ) ? 0 :gdjs.micrometroCode.GDr2Objects2[0].getPointY("")) - (gdjs.RuntimeObject.getVariableNumber(((gdjs.micrometroCode.GDTamborObjects2.length === 0 ) ? gdjs.VariablesContainer.badVariablesContainer : gdjs.micrometroCode.GDTamborObjects2[0].getVariables()).get("posr1r2"))), "");
-}{for(var i = 0, len = gdjs.micrometroCode.GDr1Objects2.length ;i < len;++i) {
-    gdjs.micrometroCode.GDr1Objects2[i].setZOrder(19);
+}{gdjs.evtTools.object.createObjectOnScene((typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : runtimeScene), gdjs.micrometroCode.mapOfGDgdjs_46micrometroCode_46GDr1Objects3Objects, (( gdjs.micrometroCode.GDr2Objects3.length === 0 ) ? 0 :gdjs.micrometroCode.GDr2Objects3[0].getPointX("")), (( gdjs.micrometroCode.GDr2Objects3.length === 0 ) ? 0 :gdjs.micrometroCode.GDr2Objects3[0].getPointY("")) - (gdjs.RuntimeObject.getVariableNumber(((gdjs.micrometroCode.GDTamborObjects3.length === 0 ) ? gdjs.VariablesContainer.badVariablesContainer : gdjs.micrometroCode.GDTamborObjects3[0].getVariables()).get("posr1r2"))), "");
+}{for(var i = 0, len = gdjs.micrometroCode.GDr1Objects3.length ;i < len;++i) {
+    gdjs.micrometroCode.GDr1Objects3[i].setZOrder(19);
 }
-}{for(var i = 0, len = gdjs.micrometroCode.GDr1Objects2.length ;i < len;++i) {
-    gdjs.micrometroCode.GDr1Objects2[i].setWidth(150);
+}{for(var i = 0, len = gdjs.micrometroCode.GDr1Objects3.length ;i < len;++i) {
+    gdjs.micrometroCode.GDr1Objects3[i].setWidth(150);
 }
-}{for(var i = 0, len = gdjs.micrometroCode.GDr1Objects2.length ;i < len;++i) {
-    gdjs.micrometroCode.GDr1Objects2[i].setHeight(600);
+}{for(var i = 0, len = gdjs.micrometroCode.GDr1Objects3.length ;i < len;++i) {
+    gdjs.micrometroCode.GDr1Objects3[i].setHeight(600);
 }
 }}
 
@@ -376,28 +535,28 @@ gdjs.copyArray(runtimeScene.getObjects("r2"), gdjs.micrometroCode.GDr2Objects2);
 
 {
 
-gdjs.copyArray(runtimeScene.getObjects("r2"), gdjs.micrometroCode.GDr2Objects2);
-gdjs.copyArray(runtimeScene.getObjects("toqueAvancar"), gdjs.micrometroCode.GDtoqueAvancarObjects2);
+gdjs.copyArray(runtimeScene.getObjects("r2"), gdjs.micrometroCode.GDr2Objects3);
+gdjs.copyArray(runtimeScene.getObjects("toqueAvancar"), gdjs.micrometroCode.GDtoqueAvancarObjects3);
 
 gdjs.micrometroCode.condition0IsTrue_0.val = false;
 {
-gdjs.micrometroCode.condition0IsTrue_0.val = gdjs.evtTools.object.hitBoxesCollisionTest(gdjs.micrometroCode.mapOfGDgdjs_46micrometroCode_46GDr2Objects2Objects, gdjs.micrometroCode.mapOfGDgdjs_46micrometroCode_46GDtoqueAvancarObjects2Objects, false, runtimeScene, false);
+gdjs.micrometroCode.condition0IsTrue_0.val = gdjs.evtTools.object.hitBoxesCollisionTest(gdjs.micrometroCode.mapOfGDgdjs_46micrometroCode_46GDr2Objects3Objects, gdjs.micrometroCode.mapOfGDgdjs_46micrometroCode_46GDtoqueAvancarObjects3Objects, false, runtimeScene, false);
 }if (gdjs.micrometroCode.condition0IsTrue_0.val) {
-gdjs.copyArray(runtimeScene.getObjects("Tambor"), gdjs.micrometroCode.GDTamborObjects2);
-gdjs.copyArray(runtimeScene.getObjects("r1"), gdjs.micrometroCode.GDr1Objects2);
-/* Reuse gdjs.micrometroCode.GDr2Objects2 */
-{for(var i = 0, len = gdjs.micrometroCode.GDr2Objects2.length ;i < len;++i) {
-    gdjs.micrometroCode.GDr2Objects2[i].deleteFromScene(runtimeScene);
+gdjs.copyArray(runtimeScene.getObjects("Tambor"), gdjs.micrometroCode.GDTamborObjects3);
+gdjs.copyArray(runtimeScene.getObjects("r1"), gdjs.micrometroCode.GDr1Objects3);
+/* Reuse gdjs.micrometroCode.GDr2Objects3 */
+{for(var i = 0, len = gdjs.micrometroCode.GDr2Objects3.length ;i < len;++i) {
+    gdjs.micrometroCode.GDr2Objects3[i].deleteFromScene(runtimeScene);
 }
-}{gdjs.evtTools.object.createObjectOnScene((typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : runtimeScene), gdjs.micrometroCode.mapOfGDgdjs_46micrometroCode_46GDr2Objects2Objects, (( gdjs.micrometroCode.GDr1Objects2.length === 0 ) ? 0 :gdjs.micrometroCode.GDr1Objects2[0].getPointX("")), (( gdjs.micrometroCode.GDr1Objects2.length === 0 ) ? 0 :gdjs.micrometroCode.GDr1Objects2[0].getPointY("")) - (gdjs.RuntimeObject.getVariableNumber(((gdjs.micrometroCode.GDTamborObjects2.length === 0 ) ? gdjs.VariablesContainer.badVariablesContainer : gdjs.micrometroCode.GDTamborObjects2[0].getVariables()).get("posr1r2"))), "");
-}{for(var i = 0, len = gdjs.micrometroCode.GDr2Objects2.length ;i < len;++i) {
-    gdjs.micrometroCode.GDr2Objects2[i].setZOrder(19);
+}{gdjs.evtTools.object.createObjectOnScene((typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : runtimeScene), gdjs.micrometroCode.mapOfGDgdjs_46micrometroCode_46GDr2Objects3Objects, (( gdjs.micrometroCode.GDr1Objects3.length === 0 ) ? 0 :gdjs.micrometroCode.GDr1Objects3[0].getPointX("")), (( gdjs.micrometroCode.GDr1Objects3.length === 0 ) ? 0 :gdjs.micrometroCode.GDr1Objects3[0].getPointY("")) - (gdjs.RuntimeObject.getVariableNumber(((gdjs.micrometroCode.GDTamborObjects3.length === 0 ) ? gdjs.VariablesContainer.badVariablesContainer : gdjs.micrometroCode.GDTamborObjects3[0].getVariables()).get("posr1r2"))), "");
+}{for(var i = 0, len = gdjs.micrometroCode.GDr2Objects3.length ;i < len;++i) {
+    gdjs.micrometroCode.GDr2Objects3[i].setZOrder(19);
 }
-}{for(var i = 0, len = gdjs.micrometroCode.GDr2Objects2.length ;i < len;++i) {
-    gdjs.micrometroCode.GDr2Objects2[i].setWidth(150);
+}{for(var i = 0, len = gdjs.micrometroCode.GDr2Objects3.length ;i < len;++i) {
+    gdjs.micrometroCode.GDr2Objects3[i].setWidth(150);
 }
-}{for(var i = 0, len = gdjs.micrometroCode.GDr2Objects2.length ;i < len;++i) {
-    gdjs.micrometroCode.GDr2Objects2[i].setHeight(600);
+}{for(var i = 0, len = gdjs.micrometroCode.GDr2Objects3.length ;i < len;++i) {
+    gdjs.micrometroCode.GDr2Objects3[i].setHeight(600);
 }
 }}
 
@@ -406,28 +565,28 @@ gdjs.copyArray(runtimeScene.getObjects("r1"), gdjs.micrometroCode.GDr1Objects2);
 
 {
 
-gdjs.copyArray(runtimeScene.getObjects("r2"), gdjs.micrometroCode.GDr2Objects2);
-gdjs.copyArray(runtimeScene.getObjects("toqueVoltar"), gdjs.micrometroCode.GDtoqueVoltarObjects2);
+gdjs.copyArray(runtimeScene.getObjects("r2"), gdjs.micrometroCode.GDr2Objects3);
+gdjs.copyArray(runtimeScene.getObjects("toqueVoltar"), gdjs.micrometroCode.GDtoqueVoltarObjects3);
 
 gdjs.micrometroCode.condition0IsTrue_0.val = false;
 {
-gdjs.micrometroCode.condition0IsTrue_0.val = gdjs.evtTools.object.hitBoxesCollisionTest(gdjs.micrometroCode.mapOfGDgdjs_46micrometroCode_46GDr2Objects2Objects, gdjs.micrometroCode.mapOfGDgdjs_46micrometroCode_46GDtoqueVoltarObjects2Objects, false, runtimeScene, false);
+gdjs.micrometroCode.condition0IsTrue_0.val = gdjs.evtTools.object.hitBoxesCollisionTest(gdjs.micrometroCode.mapOfGDgdjs_46micrometroCode_46GDr2Objects3Objects, gdjs.micrometroCode.mapOfGDgdjs_46micrometroCode_46GDtoqueVoltarObjects3Objects, false, runtimeScene, false);
 }if (gdjs.micrometroCode.condition0IsTrue_0.val) {
-gdjs.copyArray(runtimeScene.getObjects("Tambor"), gdjs.micrometroCode.GDTamborObjects2);
-gdjs.copyArray(runtimeScene.getObjects("r1"), gdjs.micrometroCode.GDr1Objects2);
-/* Reuse gdjs.micrometroCode.GDr2Objects2 */
-{for(var i = 0, len = gdjs.micrometroCode.GDr2Objects2.length ;i < len;++i) {
-    gdjs.micrometroCode.GDr2Objects2[i].deleteFromScene(runtimeScene);
+gdjs.copyArray(runtimeScene.getObjects("Tambor"), gdjs.micrometroCode.GDTamborObjects3);
+gdjs.copyArray(runtimeScene.getObjects("r1"), gdjs.micrometroCode.GDr1Objects3);
+/* Reuse gdjs.micrometroCode.GDr2Objects3 */
+{for(var i = 0, len = gdjs.micrometroCode.GDr2Objects3.length ;i < len;++i) {
+    gdjs.micrometroCode.GDr2Objects3[i].deleteFromScene(runtimeScene);
 }
-}{gdjs.evtTools.object.createObjectOnScene((typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : runtimeScene), gdjs.micrometroCode.mapOfGDgdjs_46micrometroCode_46GDr2Objects2Objects, (( gdjs.micrometroCode.GDr1Objects2.length === 0 ) ? 0 :gdjs.micrometroCode.GDr1Objects2[0].getPointX("")), (( gdjs.micrometroCode.GDr1Objects2.length === 0 ) ? 0 :gdjs.micrometroCode.GDr1Objects2[0].getPointY("")) + (gdjs.RuntimeObject.getVariableNumber(((gdjs.micrometroCode.GDTamborObjects2.length === 0 ) ? gdjs.VariablesContainer.badVariablesContainer : gdjs.micrometroCode.GDTamborObjects2[0].getVariables()).get("posr1r2"))), "");
-}{for(var i = 0, len = gdjs.micrometroCode.GDr2Objects2.length ;i < len;++i) {
-    gdjs.micrometroCode.GDr2Objects2[i].setZOrder(19);
+}{gdjs.evtTools.object.createObjectOnScene((typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : runtimeScene), gdjs.micrometroCode.mapOfGDgdjs_46micrometroCode_46GDr2Objects3Objects, (( gdjs.micrometroCode.GDr1Objects3.length === 0 ) ? 0 :gdjs.micrometroCode.GDr1Objects3[0].getPointX("")), (( gdjs.micrometroCode.GDr1Objects3.length === 0 ) ? 0 :gdjs.micrometroCode.GDr1Objects3[0].getPointY("")) + (gdjs.RuntimeObject.getVariableNumber(((gdjs.micrometroCode.GDTamborObjects3.length === 0 ) ? gdjs.VariablesContainer.badVariablesContainer : gdjs.micrometroCode.GDTamborObjects3[0].getVariables()).get("posr1r2"))), "");
+}{for(var i = 0, len = gdjs.micrometroCode.GDr2Objects3.length ;i < len;++i) {
+    gdjs.micrometroCode.GDr2Objects3[i].setZOrder(19);
 }
-}{for(var i = 0, len = gdjs.micrometroCode.GDr2Objects2.length ;i < len;++i) {
-    gdjs.micrometroCode.GDr2Objects2[i].setWidth(150);
+}{for(var i = 0, len = gdjs.micrometroCode.GDr2Objects3.length ;i < len;++i) {
+    gdjs.micrometroCode.GDr2Objects3[i].setWidth(150);
 }
-}{for(var i = 0, len = gdjs.micrometroCode.GDr2Objects2.length ;i < len;++i) {
-    gdjs.micrometroCode.GDr2Objects2[i].setHeight(600);
+}{for(var i = 0, len = gdjs.micrometroCode.GDr2Objects3.length ;i < len;++i) {
+    gdjs.micrometroCode.GDr2Objects3[i].setHeight(600);
 }
 }}
 
@@ -464,6 +623,190 @@ gdjs.copyArray(runtimeScene.getObjects("r2"), gdjs.micrometroCode.GDr2Objects2);
 }
 
 
+};gdjs.micrometroCode.eventsList8 = function(runtimeScene) {
+
+{
+
+gdjs.copyArray(runtimeScene.getObjects("Tambor"), gdjs.micrometroCode.GDTamborObjects2);
+
+gdjs.micrometroCode.condition0IsTrue_0.val = false;
+{
+for(var i = 0, k = 0, l = gdjs.micrometroCode.GDTamborObjects2.length;i<l;++i) {
+    if ( gdjs.micrometroCode.GDTamborObjects2[i].getVariableNumber(gdjs.micrometroCode.GDTamborObjects2[i].getVariables().get("medicaoTamborVal")) > 0 ) {
+        gdjs.micrometroCode.condition0IsTrue_0.val = true;
+        gdjs.micrometroCode.GDTamborObjects2[k] = gdjs.micrometroCode.GDTamborObjects2[i];
+        ++k;
+    }
+}
+gdjs.micrometroCode.GDTamborObjects2.length = k;}if (gdjs.micrometroCode.condition0IsTrue_0.val) {
+gdjs.copyArray(runtimeScene.getObjects("escalaReguaBase"), gdjs.micrometroCode.GDescalaReguaBaseObjects2);
+{for(var i = 0, len = gdjs.micrometroCode.GDescalaReguaBaseObjects2.length ;i < len;++i) {
+    gdjs.micrometroCode.GDescalaReguaBaseObjects2[i].setWidth(500);
+}
+}{for(var i = 0, len = gdjs.micrometroCode.GDescalaReguaBaseObjects2.length ;i < len;++i) {
+    gdjs.micrometroCode.GDescalaReguaBaseObjects2[i].returnVariable(gdjs.micrometroCode.GDescalaReguaBaseObjects2[i].getVariables().get("tamEscala")).setNumber(500);
+}
+}}
+
+}
+
+
+{
+
+gdjs.copyArray(runtimeScene.getObjects("Tambor"), gdjs.micrometroCode.GDTamborObjects2);
+
+gdjs.micrometroCode.condition0IsTrue_0.val = false;
+{
+for(var i = 0, k = 0, l = gdjs.micrometroCode.GDTamborObjects2.length;i<l;++i) {
+    if ( gdjs.micrometroCode.GDTamborObjects2[i].getVariableNumber(gdjs.micrometroCode.GDTamborObjects2[i].getVariables().get("medicaoTamborVal")) > 1.30 ) {
+        gdjs.micrometroCode.condition0IsTrue_0.val = true;
+        gdjs.micrometroCode.GDTamborObjects2[k] = gdjs.micrometroCode.GDTamborObjects2[i];
+        ++k;
+    }
+}
+gdjs.micrometroCode.GDTamborObjects2.length = k;}if (gdjs.micrometroCode.condition0IsTrue_0.val) {
+gdjs.copyArray(runtimeScene.getObjects("escalaReguaBase"), gdjs.micrometroCode.GDescalaReguaBaseObjects2);
+{for(var i = 0, len = gdjs.micrometroCode.GDescalaReguaBaseObjects2.length ;i < len;++i) {
+    gdjs.micrometroCode.GDescalaReguaBaseObjects2[i].setWidth(518);
+}
+}{for(var i = 0, len = gdjs.micrometroCode.GDescalaReguaBaseObjects2.length ;i < len;++i) {
+    gdjs.micrometroCode.GDescalaReguaBaseObjects2[i].returnVariable(gdjs.micrometroCode.GDescalaReguaBaseObjects2[i].getVariables().get("tamEscala")).setNumber(518);
+}
+}}
+
+}
+
+
+{
+
+gdjs.copyArray(runtimeScene.getObjects("Tambor"), gdjs.micrometroCode.GDTamborObjects2);
+
+gdjs.micrometroCode.condition0IsTrue_0.val = false;
+{
+for(var i = 0, k = 0, l = gdjs.micrometroCode.GDTamborObjects2.length;i<l;++i) {
+    if ( gdjs.micrometroCode.GDTamborObjects2[i].getVariableNumber(gdjs.micrometroCode.GDTamborObjects2[i].getVariables().get("medicaoTamborVal")) > 2.80 ) {
+        gdjs.micrometroCode.condition0IsTrue_0.val = true;
+        gdjs.micrometroCode.GDTamborObjects2[k] = gdjs.micrometroCode.GDTamborObjects2[i];
+        ++k;
+    }
+}
+gdjs.micrometroCode.GDTamborObjects2.length = k;}if (gdjs.micrometroCode.condition0IsTrue_0.val) {
+gdjs.copyArray(runtimeScene.getObjects("escalaReguaBase"), gdjs.micrometroCode.GDescalaReguaBaseObjects2);
+{for(var i = 0, len = gdjs.micrometroCode.GDescalaReguaBaseObjects2.length ;i < len;++i) {
+    gdjs.micrometroCode.GDescalaReguaBaseObjects2[i].setWidth(522);
+}
+}{for(var i = 0, len = gdjs.micrometroCode.GDescalaReguaBaseObjects2.length ;i < len;++i) {
+    gdjs.micrometroCode.GDescalaReguaBaseObjects2[i].returnVariable(gdjs.micrometroCode.GDescalaReguaBaseObjects2[i].getVariables().get("tamEscala")).setNumber(522);
+}
+}}
+
+}
+
+
+{
+
+gdjs.copyArray(runtimeScene.getObjects("Tambor"), gdjs.micrometroCode.GDTamborObjects2);
+
+gdjs.micrometroCode.condition0IsTrue_0.val = false;
+{
+for(var i = 0, k = 0, l = gdjs.micrometroCode.GDTamborObjects2.length;i<l;++i) {
+    if ( gdjs.micrometroCode.GDTamborObjects2[i].getVariableNumber(gdjs.micrometroCode.GDTamborObjects2[i].getVariables().get("medicaoTamborVal")) > 3.30 ) {
+        gdjs.micrometroCode.condition0IsTrue_0.val = true;
+        gdjs.micrometroCode.GDTamborObjects2[k] = gdjs.micrometroCode.GDTamborObjects2[i];
+        ++k;
+    }
+}
+gdjs.micrometroCode.GDTamborObjects2.length = k;}if (gdjs.micrometroCode.condition0IsTrue_0.val) {
+gdjs.copyArray(runtimeScene.getObjects("escalaReguaBase"), gdjs.micrometroCode.GDescalaReguaBaseObjects2);
+{for(var i = 0, len = gdjs.micrometroCode.GDescalaReguaBaseObjects2.length ;i < len;++i) {
+    gdjs.micrometroCode.GDescalaReguaBaseObjects2[i].setWidth(524);
+}
+}{for(var i = 0, len = gdjs.micrometroCode.GDescalaReguaBaseObjects2.length ;i < len;++i) {
+    gdjs.micrometroCode.GDescalaReguaBaseObjects2[i].returnVariable(gdjs.micrometroCode.GDescalaReguaBaseObjects2[i].getVariables().get("tamEscala")).setNumber(524);
+}
+}}
+
+}
+
+
+{
+
+gdjs.copyArray(runtimeScene.getObjects("Tambor"), gdjs.micrometroCode.GDTamborObjects2);
+
+gdjs.micrometroCode.condition0IsTrue_0.val = false;
+{
+for(var i = 0, k = 0, l = gdjs.micrometroCode.GDTamborObjects2.length;i<l;++i) {
+    if ( gdjs.micrometroCode.GDTamborObjects2[i].getVariableNumber(gdjs.micrometroCode.GDTamborObjects2[i].getVariables().get("medicaoTamborVal")) > 4.30 ) {
+        gdjs.micrometroCode.condition0IsTrue_0.val = true;
+        gdjs.micrometroCode.GDTamborObjects2[k] = gdjs.micrometroCode.GDTamborObjects2[i];
+        ++k;
+    }
+}
+gdjs.micrometroCode.GDTamborObjects2.length = k;}if (gdjs.micrometroCode.condition0IsTrue_0.val) {
+gdjs.copyArray(runtimeScene.getObjects("escalaReguaBase"), gdjs.micrometroCode.GDescalaReguaBaseObjects2);
+{for(var i = 0, len = gdjs.micrometroCode.GDescalaReguaBaseObjects2.length ;i < len;++i) {
+    gdjs.micrometroCode.GDescalaReguaBaseObjects2[i].setWidth(526);
+}
+}{for(var i = 0, len = gdjs.micrometroCode.GDescalaReguaBaseObjects2.length ;i < len;++i) {
+    gdjs.micrometroCode.GDescalaReguaBaseObjects2[i].returnVariable(gdjs.micrometroCode.GDescalaReguaBaseObjects2[i].getVariables().get("tamEscala")).setNumber(526);
+}
+}}
+
+}
+
+
+{
+
+gdjs.copyArray(runtimeScene.getObjects("Tambor"), gdjs.micrometroCode.GDTamborObjects2);
+
+gdjs.micrometroCode.condition0IsTrue_0.val = false;
+{
+for(var i = 0, k = 0, l = gdjs.micrometroCode.GDTamborObjects2.length;i<l;++i) {
+    if ( gdjs.micrometroCode.GDTamborObjects2[i].getVariableNumber(gdjs.micrometroCode.GDTamborObjects2[i].getVariables().get("medicaoTamborVal")) > 7.30 ) {
+        gdjs.micrometroCode.condition0IsTrue_0.val = true;
+        gdjs.micrometroCode.GDTamborObjects2[k] = gdjs.micrometroCode.GDTamborObjects2[i];
+        ++k;
+    }
+}
+gdjs.micrometroCode.GDTamborObjects2.length = k;}if (gdjs.micrometroCode.condition0IsTrue_0.val) {
+gdjs.copyArray(runtimeScene.getObjects("escalaReguaBase"), gdjs.micrometroCode.GDescalaReguaBaseObjects2);
+{for(var i = 0, len = gdjs.micrometroCode.GDescalaReguaBaseObjects2.length ;i < len;++i) {
+    gdjs.micrometroCode.GDescalaReguaBaseObjects2[i].setWidth(528);
+}
+}{for(var i = 0, len = gdjs.micrometroCode.GDescalaReguaBaseObjects2.length ;i < len;++i) {
+    gdjs.micrometroCode.GDescalaReguaBaseObjects2[i].returnVariable(gdjs.micrometroCode.GDescalaReguaBaseObjects2[i].getVariables().get("tamEscala")).setNumber(528);
+}
+}}
+
+}
+
+
+{
+
+gdjs.copyArray(runtimeScene.getObjects("Tambor"), gdjs.micrometroCode.GDTamborObjects2);
+
+gdjs.micrometroCode.condition0IsTrue_0.val = false;
+{
+for(var i = 0, k = 0, l = gdjs.micrometroCode.GDTamborObjects2.length;i<l;++i) {
+    if ( gdjs.micrometroCode.GDTamborObjects2[i].getVariableNumber(gdjs.micrometroCode.GDTamborObjects2[i].getVariables().get("medicaoTamborVal")) > 9.80 ) {
+        gdjs.micrometroCode.condition0IsTrue_0.val = true;
+        gdjs.micrometroCode.GDTamborObjects2[k] = gdjs.micrometroCode.GDTamborObjects2[i];
+        ++k;
+    }
+}
+gdjs.micrometroCode.GDTamborObjects2.length = k;}if (gdjs.micrometroCode.condition0IsTrue_0.val) {
+gdjs.copyArray(runtimeScene.getObjects("escalaReguaBase"), gdjs.micrometroCode.GDescalaReguaBaseObjects2);
+{for(var i = 0, len = gdjs.micrometroCode.GDescalaReguaBaseObjects2.length ;i < len;++i) {
+    gdjs.micrometroCode.GDescalaReguaBaseObjects2[i].setWidth(530);
+}
+}{for(var i = 0, len = gdjs.micrometroCode.GDescalaReguaBaseObjects2.length ;i < len;++i) {
+    gdjs.micrometroCode.GDescalaReguaBaseObjects2[i].returnVariable(gdjs.micrometroCode.GDescalaReguaBaseObjects2[i].getVariables().get("tamEscala")).setNumber(530);
+}
+}}
+
+}
+
+
 {
 
 
@@ -473,7 +816,7 @@ gdjs.copyArray(runtimeScene.getObjects("r2"), gdjs.micrometroCode.GDr2Objects2);
 }
 
 
-};gdjs.micrometroCode.eventsList4 = function(runtimeScene) {
+};gdjs.micrometroCode.eventsList9 = function(runtimeScene) {
 
 {
 
@@ -481,14 +824,9 @@ gdjs.copyArray(runtimeScene.getObjects("r2"), gdjs.micrometroCode.GDr2Objects2);
 {
 gdjs.copyArray(runtimeScene.getObjects("Tambor"), gdjs.micrometroCode.GDTamborObjects2);
 gdjs.copyArray(runtimeScene.getObjects("avancarTambor"), gdjs.micrometroCode.GDavancarTamborObjects2);
-gdjs.copyArray(runtimeScene.getObjects("debug"), gdjs.micrometroCode.GDdebugObjects2);
-gdjs.copyArray(runtimeScene.getObjects("medicaoVal"), gdjs.micrometroCode.GDmedicaoValObjects2);
 gdjs.copyArray(runtimeScene.getObjects("voltaTambor"), gdjs.micrometroCode.GDvoltaTamborObjects2);
-{for(var i = 0, len = gdjs.micrometroCode.GDmedicaoValObjects2.length ;i < len;++i) {
-    gdjs.micrometroCode.GDmedicaoValObjects2[i].setString(gdjs.evtTools.string.subStr(gdjs.evtTools.common.toString(((( gdjs.micrometroCode.GDTamborObjects2.length === 0 ) ? 0 :gdjs.micrometroCode.GDTamborObjects2[0].getPointX("")) - 883) / (gdjs.RuntimeObject.getVariableNumber(((gdjs.micrometroCode.GDTamborObjects2.length === 0 ) ? gdjs.VariablesContainer.badVariablesContainer : gdjs.micrometroCode.GDTamborObjects2[0].getVariables()).get("divDesvio")))), 0, 4));
-}
-}{for(var i = 0, len = gdjs.micrometroCode.GDdebugObjects2.length ;i < len;++i) {
-    gdjs.micrometroCode.GDdebugObjects2[i].setString(gdjs.evtTools.string.subStr(gdjs.evtTools.common.toString(((( gdjs.micrometroCode.GDTamborObjects2.length === 0 ) ? 0 :gdjs.micrometroCode.GDTamborObjects2[0].getPointX("")) - 883) / (gdjs.RuntimeObject.getVariableNumber(((gdjs.micrometroCode.GDTamborObjects2.length === 0 ) ? gdjs.VariablesContainer.badVariablesContainer : gdjs.micrometroCode.GDTamborObjects2[0].getVariables()).get("divDesvio")))), 0, 4));
+{for(var i = 0, len = gdjs.micrometroCode.GDTamborObjects2.length ;i < len;++i) {
+    gdjs.micrometroCode.GDTamborObjects2[i].returnVariable(gdjs.micrometroCode.GDTamborObjects2[i].getVariables().get("medicaoTamborVal")).setNumber(((gdjs.micrometroCode.GDTamborObjects2[i].getPointX("")) - 991.5) / (gdjs.RuntimeObject.getVariableNumber(gdjs.micrometroCode.GDTamborObjects2[i].getVariables().get("divDesvio"))));
 }
 }{for(var i = 0, len = gdjs.micrometroCode.GDavancarTamborObjects2.length ;i < len;++i) {
     gdjs.micrometroCode.GDavancarTamborObjects2[i].setOpacity(150);
@@ -503,21 +841,82 @@ gdjs.copyArray(runtimeScene.getObjects("voltaTambor"), gdjs.micrometroCode.GDvol
 
 {
 
+gdjs.copyArray(runtimeScene.getObjects("Tambor"), gdjs.micrometroCode.GDTamborObjects2);
+
+gdjs.micrometroCode.condition0IsTrue_0.val = false;
+{
+for(var i = 0, k = 0, l = gdjs.micrometroCode.GDTamborObjects2.length;i<l;++i) {
+    if ( gdjs.micrometroCode.GDTamborObjects2[i].getVariableNumber(gdjs.micrometroCode.GDTamborObjects2[i].getVariables().get("medicaoTamborVal")) < 10 ) {
+        gdjs.micrometroCode.condition0IsTrue_0.val = true;
+        gdjs.micrometroCode.GDTamborObjects2[k] = gdjs.micrometroCode.GDTamborObjects2[i];
+        ++k;
+    }
+}
+gdjs.micrometroCode.GDTamborObjects2.length = k;}if (gdjs.micrometroCode.condition0IsTrue_0.val) {
+/* Reuse gdjs.micrometroCode.GDTamborObjects2 */
+gdjs.copyArray(runtimeScene.getObjects("medicaoVal"), gdjs.micrometroCode.GDmedicaoValObjects2);
+{for(var i = 0, len = gdjs.micrometroCode.GDmedicaoValObjects2.length ;i < len;++i) {
+    gdjs.micrometroCode.GDmedicaoValObjects2[i].setString(gdjs.evtTools.string.subStr((gdjs.RuntimeObject.getVariableString(((gdjs.micrometroCode.GDTamborObjects2.length === 0 ) ? gdjs.VariablesContainer.badVariablesContainer : gdjs.micrometroCode.GDTamborObjects2[0].getVariables()).get("medicaoTamborVal"))), 0, 4));
+}
+}}
+
+}
+
+
+{
+
+gdjs.copyArray(runtimeScene.getObjects("Tambor"), gdjs.micrometroCode.GDTamborObjects2);
+
+gdjs.micrometroCode.condition0IsTrue_0.val = false;
+{
+for(var i = 0, k = 0, l = gdjs.micrometroCode.GDTamborObjects2.length;i<l;++i) {
+    if ( gdjs.micrometroCode.GDTamborObjects2[i].getVariableNumber(gdjs.micrometroCode.GDTamborObjects2[i].getVariables().get("medicaoTamborVal")) >= 10 ) {
+        gdjs.micrometroCode.condition0IsTrue_0.val = true;
+        gdjs.micrometroCode.GDTamborObjects2[k] = gdjs.micrometroCode.GDTamborObjects2[i];
+        ++k;
+    }
+}
+gdjs.micrometroCode.GDTamborObjects2.length = k;}if (gdjs.micrometroCode.condition0IsTrue_0.val) {
+/* Reuse gdjs.micrometroCode.GDTamborObjects2 */
+gdjs.copyArray(runtimeScene.getObjects("medicaoVal"), gdjs.micrometroCode.GDmedicaoValObjects2);
+{for(var i = 0, len = gdjs.micrometroCode.GDmedicaoValObjects2.length ;i < len;++i) {
+    gdjs.micrometroCode.GDmedicaoValObjects2[i].setString(gdjs.evtTools.string.subStr((gdjs.RuntimeObject.getVariableString(((gdjs.micrometroCode.GDTamborObjects2.length === 0 ) ? gdjs.VariablesContainer.badVariablesContainer : gdjs.micrometroCode.GDTamborObjects2[0].getVariables()).get("medicaoTamborVal"))), 0, 5));
+}
+}}
+
+}
+
+
+{
+
+gdjs.copyArray(runtimeScene.getObjects("Tambor"), gdjs.micrometroCode.GDTamborObjects2);
 gdjs.copyArray(runtimeScene.getObjects("avancarTambor"), gdjs.micrometroCode.GDavancarTamborObjects2);
 
 gdjs.micrometroCode.condition0IsTrue_0.val = false;
 gdjs.micrometroCode.condition1IsTrue_0.val = false;
+gdjs.micrometroCode.condition2IsTrue_0.val = false;
 {
 gdjs.micrometroCode.condition0IsTrue_0.val = gdjs.evtTools.input.isMouseButtonPressed(runtimeScene, "Left");
 }if ( gdjs.micrometroCode.condition0IsTrue_0.val ) {
 {
 gdjs.micrometroCode.condition1IsTrue_0.val = gdjs.evtTools.input.cursorOnObject(gdjs.micrometroCode.mapOfGDgdjs_46micrometroCode_46GDavancarTamborObjects2Objects, runtimeScene, true, false);
-}}
-if (gdjs.micrometroCode.condition1IsTrue_0.val) {
-gdjs.copyArray(runtimeScene.getObjects("Tambor"), gdjs.micrometroCode.GDTamborObjects2);
+}if ( gdjs.micrometroCode.condition1IsTrue_0.val ) {
+{
+for(var i = 0, k = 0, l = gdjs.micrometroCode.GDTamborObjects2.length;i<l;++i) {
+    if ( gdjs.micrometroCode.GDTamborObjects2[i].getVariableNumber(gdjs.micrometroCode.GDTamborObjects2[i].getVariables().get("medicaoTamborVal")) <= 25.5 ) {
+        gdjs.micrometroCode.condition2IsTrue_0.val = true;
+        gdjs.micrometroCode.GDTamborObjects2[k] = gdjs.micrometroCode.GDTamborObjects2[i];
+        ++k;
+    }
+}
+gdjs.micrometroCode.GDTamborObjects2.length = k;}}
+}
+if (gdjs.micrometroCode.condition2IsTrue_0.val) {
+/* Reuse gdjs.micrometroCode.GDTamborObjects2 */
 /* Reuse gdjs.micrometroCode.GDavancarTamborObjects2 */
 gdjs.copyArray(runtimeScene.getObjects("cBot"), gdjs.micrometroCode.GDcBotObjects2);
 gdjs.copyArray(runtimeScene.getObjects("cTop"), gdjs.micrometroCode.GDcTopObjects2);
+gdjs.copyArray(runtimeScene.getObjects("pinoTambor"), gdjs.micrometroCode.GDpinoTamborObjects2);
 gdjs.copyArray(runtimeScene.getObjects("ptZoom"), gdjs.micrometroCode.GDptZoomObjects2);
 gdjs.copyArray(runtimeScene.getObjects("r1"), gdjs.micrometroCode.GDr1Objects2);
 gdjs.copyArray(runtimeScene.getObjects("r2"), gdjs.micrometroCode.GDr2Objects2);
@@ -548,6 +947,9 @@ for(var i = 0, len = gdjs.micrometroCode.GDcBotObjects2.length ;i < len;++i) {
 }
 for(var i = 0, len = gdjs.micrometroCode.GDptZoomObjects2.length ;i < len;++i) {
     gdjs.micrometroCode.GDptZoomObjects2[i].addForce((gdjs.RuntimeObject.getVariableNumber(((gdjs.micrometroCode.GDTamborObjects2.length === 0 ) ? gdjs.VariablesContainer.badVariablesContainer : gdjs.micrometroCode.GDTamborObjects2[0].getVariables()).get("velTambor"))), 0, 0);
+}
+for(var i = 0, len = gdjs.micrometroCode.GDpinoTamborObjects2.length ;i < len;++i) {
+    gdjs.micrometroCode.GDpinoTamborObjects2[i].addForce((gdjs.RuntimeObject.getVariableNumber(((gdjs.micrometroCode.GDTamborObjects2.length === 0 ) ? gdjs.VariablesContainer.badVariablesContainer : gdjs.micrometroCode.GDTamborObjects2[0].getVariables()).get("velTambor"))), 0, 0);
 }
 }{for(var i = 0, len = gdjs.micrometroCode.GDr1Objects2.length ;i < len;++i) {
     gdjs.micrometroCode.GDr1Objects2[i].addForce(0, (gdjs.RuntimeObject.getVariableNumber(((gdjs.micrometroCode.GDTamborObjects2.length === 0 ) ? gdjs.VariablesContainer.badVariablesContainer : gdjs.micrometroCode.GDTamborObjects2[0].getVariables()).get("velRegua"))), 0);
@@ -589,6 +991,7 @@ gdjs.copyArray(runtimeScene.getObjects("Tambor"), gdjs.micrometroCode.GDTamborOb
 gdjs.copyArray(runtimeScene.getObjects("avancarTambor"), gdjs.micrometroCode.GDavancarTamborObjects2);
 gdjs.copyArray(runtimeScene.getObjects("cBot"), gdjs.micrometroCode.GDcBotObjects2);
 gdjs.copyArray(runtimeScene.getObjects("cTop"), gdjs.micrometroCode.GDcTopObjects2);
+gdjs.copyArray(runtimeScene.getObjects("pinoTambor"), gdjs.micrometroCode.GDpinoTamborObjects2);
 gdjs.copyArray(runtimeScene.getObjects("ptZoom"), gdjs.micrometroCode.GDptZoomObjects2);
 gdjs.copyArray(runtimeScene.getObjects("r1"), gdjs.micrometroCode.GDr1Objects2);
 gdjs.copyArray(runtimeScene.getObjects("r2"), gdjs.micrometroCode.GDr2Objects2);
@@ -620,6 +1023,9 @@ for(var i = 0, len = gdjs.micrometroCode.GDcBotObjects2.length ;i < len;++i) {
 for(var i = 0, len = gdjs.micrometroCode.GDptZoomObjects2.length ;i < len;++i) {
     gdjs.micrometroCode.GDptZoomObjects2[i].addForce(-((gdjs.RuntimeObject.getVariableNumber(((gdjs.micrometroCode.GDTamborObjects2.length === 0 ) ? gdjs.VariablesContainer.badVariablesContainer : gdjs.micrometroCode.GDTamborObjects2[0].getVariables()).get("velTambor")))), 0, 0);
 }
+for(var i = 0, len = gdjs.micrometroCode.GDpinoTamborObjects2.length ;i < len;++i) {
+    gdjs.micrometroCode.GDpinoTamborObjects2[i].addForce(-((gdjs.RuntimeObject.getVariableNumber(((gdjs.micrometroCode.GDTamborObjects2.length === 0 ) ? gdjs.VariablesContainer.badVariablesContainer : gdjs.micrometroCode.GDTamborObjects2[0].getVariables()).get("velTambor")))), 0, 0);
+}
 }{for(var i = 0, len = gdjs.micrometroCode.GDr1Objects2.length ;i < len;++i) {
     gdjs.micrometroCode.GDr1Objects2[i].addForce(0, -((gdjs.RuntimeObject.getVariableNumber(((gdjs.micrometroCode.GDTamborObjects2.length === 0 ) ? gdjs.VariablesContainer.badVariablesContainer : gdjs.micrometroCode.GDTamborObjects2[0].getVariables()).get("velRegua")))), 0);
 }
@@ -647,7 +1053,7 @@ for(var i = 0, k = 0, l = gdjs.micrometroCode.GDmedicaoValObjects2.length;i<l;++
 gdjs.micrometroCode.GDmedicaoValObjects2.length = k;}if (gdjs.micrometroCode.condition0IsTrue_0.val) {
 /* Reuse gdjs.micrometroCode.GDmedicaoValObjects2 */
 {for(var i = 0, len = gdjs.micrometroCode.GDmedicaoValObjects2.length ;i < len;++i) {
-    gdjs.micrometroCode.GDmedicaoValObjects2[i].setString("0");
+    gdjs.micrometroCode.GDmedicaoValObjects2[i].setString("0.00");
 }
 }}
 
@@ -657,11 +1063,25 @@ gdjs.micrometroCode.GDmedicaoValObjects2.length = k;}if (gdjs.micrometroCode.con
 {
 
 
-gdjs.micrometroCode.eventsList3(runtimeScene);
+gdjs.micrometroCode.eventsList7(runtimeScene);
 }
 
 
-};gdjs.micrometroCode.mapOfGDgdjs_46micrometroCode_46GDzoomObjects2Objects = Hashtable.newFrom({"zoom": gdjs.micrometroCode.GDzoomObjects2});gdjs.micrometroCode.mapOfGDgdjs_46micrometroCode_46GDreduzirObjects2Objects = Hashtable.newFrom({"reduzir": gdjs.micrometroCode.GDreduzirObjects2});gdjs.micrometroCode.eventsList5 = function(runtimeScene) {
+{
+
+
+gdjs.micrometroCode.eventsList8(runtimeScene);
+}
+
+
+};gdjs.micrometroCode.mapOfGDgdjs_46micrometroCode_46GDzoomObjects2Objects = Hashtable.newFrom({"zoom": gdjs.micrometroCode.GDzoomObjects2});gdjs.micrometroCode.mapOfGDgdjs_46micrometroCode_46GDreduzirObjects2Objects = Hashtable.newFrom({"reduzir": gdjs.micrometroCode.GDreduzirObjects2});gdjs.micrometroCode.eventsList10 = function(runtimeScene) {
+
+{
+
+
+
+}
+
 
 {
 
@@ -736,44 +1156,26 @@ gdjs.copyArray(runtimeScene.getObjects("hidenct"), gdjs.micrometroCode.GDhidenct
 }
 
 
-};gdjs.micrometroCode.eventsList6 = function(runtimeScene) {
-
-{
-
-
-{
-}
-
-}
-
-
-};gdjs.micrometroCode.eventsList7 = function(runtimeScene) {
-
-{
-
-
-gdjs.micrometroCode.eventsList2(runtimeScene);
-}
-
-
-{
-
-
-gdjs.micrometroCode.eventsList4(runtimeScene);
-}
-
-
-{
-
-
-gdjs.micrometroCode.eventsList5(runtimeScene);
-}
-
+};gdjs.micrometroCode.eventsList11 = function(runtimeScene) {
 
 {
 
 
 gdjs.micrometroCode.eventsList6(runtimeScene);
+}
+
+
+{
+
+
+gdjs.micrometroCode.eventsList9(runtimeScene);
+}
+
+
+{
+
+
+gdjs.micrometroCode.eventsList10(runtimeScene);
 }
 
 
@@ -830,6 +1232,14 @@ gdjs.micrometroCode.GDmedicaoTxtObjects1.length = 0;
 gdjs.micrometroCode.GDmedicaoTxtObjects2.length = 0;
 gdjs.micrometroCode.GDmedicaoTxtObjects3.length = 0;
 gdjs.micrometroCode.GDmedicaoTxtObjects4.length = 0;
+gdjs.micrometroCode.GDerroValObjects1.length = 0;
+gdjs.micrometroCode.GDerroValObjects2.length = 0;
+gdjs.micrometroCode.GDerroValObjects3.length = 0;
+gdjs.micrometroCode.GDerroValObjects4.length = 0;
+gdjs.micrometroCode.GDacertoValObjects1.length = 0;
+gdjs.micrometroCode.GDacertoValObjects2.length = 0;
+gdjs.micrometroCode.GDacertoValObjects3.length = 0;
+gdjs.micrometroCode.GDacertoValObjects4.length = 0;
 gdjs.micrometroCode.GDmedicaoValObjects1.length = 0;
 gdjs.micrometroCode.GDmedicaoValObjects2.length = 0;
 gdjs.micrometroCode.GDmedicaoValObjects3.length = 0;
@@ -842,10 +1252,10 @@ gdjs.micrometroCode.GDmedidaGeradaTXtObjects1.length = 0;
 gdjs.micrometroCode.GDmedidaGeradaTXtObjects2.length = 0;
 gdjs.micrometroCode.GDmedidaGeradaTXtObjects3.length = 0;
 gdjs.micrometroCode.GDmedidaGeradaTXtObjects4.length = 0;
-gdjs.micrometroCode.GDacertosErrosTxtObjects1.length = 0;
-gdjs.micrometroCode.GDacertosErrosTxtObjects2.length = 0;
-gdjs.micrometroCode.GDacertosErrosTxtObjects3.length = 0;
-gdjs.micrometroCode.GDacertosErrosTxtObjects4.length = 0;
+gdjs.micrometroCode.GDQuantidadesTxtObjects1.length = 0;
+gdjs.micrometroCode.GDQuantidadesTxtObjects2.length = 0;
+gdjs.micrometroCode.GDQuantidadesTxtObjects3.length = 0;
+gdjs.micrometroCode.GDQuantidadesTxtObjects4.length = 0;
 gdjs.micrometroCode.GDreguaBaseFundoObjects1.length = 0;
 gdjs.micrometroCode.GDreguaBaseFundoObjects2.length = 0;
 gdjs.micrometroCode.GDreguaBaseFundoObjects3.length = 0;
@@ -882,10 +1292,6 @@ gdjs.micrometroCode.GDcBotObjects1.length = 0;
 gdjs.micrometroCode.GDcBotObjects2.length = 0;
 gdjs.micrometroCode.GDcBotObjects3.length = 0;
 gdjs.micrometroCode.GDcBotObjects4.length = 0;
-gdjs.micrometroCode.GDdebugObjects1.length = 0;
-gdjs.micrometroCode.GDdebugObjects2.length = 0;
-gdjs.micrometroCode.GDdebugObjects3.length = 0;
-gdjs.micrometroCode.GDdebugObjects4.length = 0;
 gdjs.micrometroCode.GDtoqueVoltarObjects1.length = 0;
 gdjs.micrometroCode.GDtoqueVoltarObjects2.length = 0;
 gdjs.micrometroCode.GDtoqueVoltarObjects3.length = 0;
@@ -910,32 +1316,32 @@ gdjs.micrometroCode.GDvoltaTamborObjects1.length = 0;
 gdjs.micrometroCode.GDvoltaTamborObjects2.length = 0;
 gdjs.micrometroCode.GDvoltaTamborObjects3.length = 0;
 gdjs.micrometroCode.GDvoltaTamborObjects4.length = 0;
-gdjs.micrometroCode.GDvel10xObjects1.length = 0;
-gdjs.micrometroCode.GDvel10xObjects2.length = 0;
-gdjs.micrometroCode.GDvel10xObjects3.length = 0;
-gdjs.micrometroCode.GDvel10xObjects4.length = 0;
-gdjs.micrometroCode.GDvel5xObjects1.length = 0;
-gdjs.micrometroCode.GDvel5xObjects2.length = 0;
-gdjs.micrometroCode.GDvel5xObjects3.length = 0;
-gdjs.micrometroCode.GDvel5xObjects4.length = 0;
-gdjs.micrometroCode.GDvel1xObjects1.length = 0;
-gdjs.micrometroCode.GDvel1xObjects2.length = 0;
-gdjs.micrometroCode.GDvel1xObjects3.length = 0;
-gdjs.micrometroCode.GDvel1xObjects4.length = 0;
-gdjs.micrometroCode.GDtxtTituloVelocidadeTamborObjects1.length = 0;
-gdjs.micrometroCode.GDtxtTituloVelocidadeTamborObjects2.length = 0;
-gdjs.micrometroCode.GDtxtTituloVelocidadeTamborObjects3.length = 0;
-gdjs.micrometroCode.GDtxtTituloVelocidadeTamborObjects4.length = 0;
-gdjs.micrometroCode.GDmVelObjects1.length = 0;
-gdjs.micrometroCode.GDmVelObjects2.length = 0;
-gdjs.micrometroCode.GDmVelObjects3.length = 0;
-gdjs.micrometroCode.GDmVelObjects4.length = 0;
+gdjs.micrometroCode.GDtxtTituloReduzirZoomObjects1.length = 0;
+gdjs.micrometroCode.GDtxtTituloReduzirZoomObjects2.length = 0;
+gdjs.micrometroCode.GDtxtTituloReduzirZoomObjects3.length = 0;
+gdjs.micrometroCode.GDtxtTituloReduzirZoomObjects4.length = 0;
+gdjs.micrometroCode.GDtxtTituloMaisZoomObjects1.length = 0;
+gdjs.micrometroCode.GDtxtTituloMaisZoomObjects2.length = 0;
+gdjs.micrometroCode.GDtxtTituloMaisZoomObjects3.length = 0;
+gdjs.micrometroCode.GDtxtTituloMaisZoomObjects4.length = 0;
 gdjs.micrometroCode.GDptZoomObjects1.length = 0;
 gdjs.micrometroCode.GDptZoomObjects2.length = 0;
 gdjs.micrometroCode.GDptZoomObjects3.length = 0;
 gdjs.micrometroCode.GDptZoomObjects4.length = 0;
+gdjs.micrometroCode.GDpinoTamborObjects1.length = 0;
+gdjs.micrometroCode.GDpinoTamborObjects2.length = 0;
+gdjs.micrometroCode.GDpinoTamborObjects3.length = 0;
+gdjs.micrometroCode.GDpinoTamborObjects4.length = 0;
+gdjs.micrometroCode.GDescalaReguaBaseObjects1.length = 0;
+gdjs.micrometroCode.GDescalaReguaBaseObjects2.length = 0;
+gdjs.micrometroCode.GDescalaReguaBaseObjects3.length = 0;
+gdjs.micrometroCode.GDescalaReguaBaseObjects4.length = 0;
+gdjs.micrometroCode.GDalertMsgObjects1.length = 0;
+gdjs.micrometroCode.GDalertMsgObjects2.length = 0;
+gdjs.micrometroCode.GDalertMsgObjects3.length = 0;
+gdjs.micrometroCode.GDalertMsgObjects4.length = 0;
 
-gdjs.micrometroCode.eventsList7(runtimeScene);
+gdjs.micrometroCode.eventsList11(runtimeScene);
 return;
 
 }
