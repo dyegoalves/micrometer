@@ -155,6 +155,14 @@ gdjs.micrometroCode.GDalertMsgObjects1= [];
 gdjs.micrometroCode.GDalertMsgObjects2= [];
 gdjs.micrometroCode.GDalertMsgObjects3= [];
 gdjs.micrometroCode.GDalertMsgObjects4= [];
+gdjs.micrometroCode.GDbtAjudaObjects1= [];
+gdjs.micrometroCode.GDbtAjudaObjects2= [];
+gdjs.micrometroCode.GDbtAjudaObjects3= [];
+gdjs.micrometroCode.GDbtAjudaObjects4= [];
+gdjs.micrometroCode.GDajudaTxtObjects1= [];
+gdjs.micrometroCode.GDajudaTxtObjects2= [];
+gdjs.micrometroCode.GDajudaTxtObjects3= [];
+gdjs.micrometroCode.GDajudaTxtObjects4= [];
 
 gdjs.micrometroCode.conditionTrue_0 = {val:false};
 gdjs.micrometroCode.condition0IsTrue_0 = {val:false};
@@ -168,7 +176,7 @@ gdjs.micrometroCode.condition2IsTrue_1 = {val:false};
 gdjs.micrometroCode.condition3IsTrue_1 = {val:false};
 
 
-gdjs.micrometroCode.mapOfGDgdjs_46micrometroCode_46GDbtGMObjects2Objects = Hashtable.newFrom({"btGM": gdjs.micrometroCode.GDbtGMObjects2});gdjs.micrometroCode.userFunc0x7a22a8 = function(runtimeScene) {
+gdjs.micrometroCode.mapOfGDgdjs_46micrometroCode_46GDbtGMObjects2Objects = Hashtable.newFrom({"btGM": gdjs.micrometroCode.GDbtGMObjects2});gdjs.micrometroCode.userFunc0x855558 = function(runtimeScene) {
 "use strict";
 //Testa se for zero nao passa
 var res = generateNumberRandom(0, 5.0)
@@ -220,7 +228,7 @@ gdjs.micrometroCode.eventsList0 = function(runtimeScene) {
 {
 
 
-gdjs.micrometroCode.userFunc0x7a22a8(runtimeScene);
+gdjs.micrometroCode.userFunc0x855558(runtimeScene);
 
 }
 
@@ -1156,7 +1164,57 @@ gdjs.copyArray(runtimeScene.getObjects("hidenct"), gdjs.micrometroCode.GDhidenct
 }
 
 
-};gdjs.micrometroCode.eventsList11 = function(runtimeScene) {
+};gdjs.micrometroCode.mapOfGDgdjs_46micrometroCode_46GDbtAjudaObjects1Objects = Hashtable.newFrom({"btAjuda": gdjs.micrometroCode.GDbtAjudaObjects1});gdjs.micrometroCode.eventsList11 = function(runtimeScene) {
+
+{
+
+
+gdjs.micrometroCode.condition0IsTrue_0.val = false;
+{
+gdjs.micrometroCode.condition0IsTrue_0.val = gdjs.evtTools.input.isMouseButtonPressed(runtimeScene, "Left");
+}if (gdjs.micrometroCode.condition0IsTrue_0.val) {
+{gdjs.evtTools.runtimeScene.pushScene(runtimeScene, "ajuda");
+}}
+
+}
+
+
+};gdjs.micrometroCode.eventsList12 = function(runtimeScene) {
+
+{
+
+
+{
+gdjs.copyArray(runtimeScene.getObjects("btAjuda"), gdjs.micrometroCode.GDbtAjudaObjects2);
+{for(var i = 0, len = gdjs.micrometroCode.GDbtAjudaObjects2.length ;i < len;++i) {
+    gdjs.micrometroCode.GDbtAjudaObjects2[i].setAnimation(0);
+}
+}}
+
+}
+
+
+{
+
+gdjs.copyArray(runtimeScene.getObjects("btAjuda"), gdjs.micrometroCode.GDbtAjudaObjects1);
+
+gdjs.micrometroCode.condition0IsTrue_0.val = false;
+{
+gdjs.micrometroCode.condition0IsTrue_0.val = gdjs.evtTools.input.cursorOnObject(gdjs.micrometroCode.mapOfGDgdjs_46micrometroCode_46GDbtAjudaObjects1Objects, runtimeScene, true, false);
+}if (gdjs.micrometroCode.condition0IsTrue_0.val) {
+/* Reuse gdjs.micrometroCode.GDbtAjudaObjects1 */
+{for(var i = 0, len = gdjs.micrometroCode.GDbtAjudaObjects1.length ;i < len;++i) {
+    gdjs.micrometroCode.GDbtAjudaObjects1[i].setAnimation(1);
+}
+}
+{ //Subevents
+gdjs.micrometroCode.eventsList11(runtimeScene);} //End of subevents
+}
+
+}
+
+
+};gdjs.micrometroCode.eventsList13 = function(runtimeScene) {
 
 {
 
@@ -1176,6 +1234,13 @@ gdjs.micrometroCode.eventsList9(runtimeScene);
 
 
 gdjs.micrometroCode.eventsList10(runtimeScene);
+}
+
+
+{
+
+
+gdjs.micrometroCode.eventsList12(runtimeScene);
 }
 
 
@@ -1340,8 +1405,16 @@ gdjs.micrometroCode.GDalertMsgObjects1.length = 0;
 gdjs.micrometroCode.GDalertMsgObjects2.length = 0;
 gdjs.micrometroCode.GDalertMsgObjects3.length = 0;
 gdjs.micrometroCode.GDalertMsgObjects4.length = 0;
+gdjs.micrometroCode.GDbtAjudaObjects1.length = 0;
+gdjs.micrometroCode.GDbtAjudaObjects2.length = 0;
+gdjs.micrometroCode.GDbtAjudaObjects3.length = 0;
+gdjs.micrometroCode.GDbtAjudaObjects4.length = 0;
+gdjs.micrometroCode.GDajudaTxtObjects1.length = 0;
+gdjs.micrometroCode.GDajudaTxtObjects2.length = 0;
+gdjs.micrometroCode.GDajudaTxtObjects3.length = 0;
+gdjs.micrometroCode.GDajudaTxtObjects4.length = 0;
 
-gdjs.micrometroCode.eventsList11(runtimeScene);
+gdjs.micrometroCode.eventsList13(runtimeScene);
 return;
 
 }
