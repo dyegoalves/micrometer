@@ -176,7 +176,7 @@ gdjs.micrometroCode.condition2IsTrue_1 = {val:false};
 gdjs.micrometroCode.condition3IsTrue_1 = {val:false};
 
 
-gdjs.micrometroCode.mapOfGDgdjs_46micrometroCode_46GDbtGMObjects2Objects = Hashtable.newFrom({"btGM": gdjs.micrometroCode.GDbtGMObjects2});gdjs.micrometroCode.userFunc0x7823d0 = function(runtimeScene) {
+gdjs.micrometroCode.mapOfGDgdjs_46micrometroCode_46GDbtGMObjects2Objects = Hashtable.newFrom({"btGM": gdjs.micrometroCode.GDbtGMObjects2});gdjs.micrometroCode.userFunc0x6e1080 = function(runtimeScene) {
 "use strict";
 //Testa se for zero nao passa
 var res = generateNumberRandom(0, 5.0)
@@ -228,7 +228,7 @@ gdjs.micrometroCode.eventsList0 = function(runtimeScene) {
 {
 
 
-gdjs.micrometroCode.userFunc0x7823d0(runtimeScene);
+gdjs.micrometroCode.userFunc0x6e1080(runtimeScene);
 
 }
 
