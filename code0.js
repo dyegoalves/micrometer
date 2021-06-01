@@ -176,7 +176,7 @@ gdjs.micrometroCode.condition2IsTrue_1 = {val:false};
 gdjs.micrometroCode.condition3IsTrue_1 = {val:false};
 
 
-gdjs.micrometroCode.mapOfGDgdjs_46micrometroCode_46GDbtGMObjects2Objects = Hashtable.newFrom({"btGM": gdjs.micrometroCode.GDbtGMObjects2});gdjs.micrometroCode.userFunc0x6e1080 = function(runtimeScene) {
+gdjs.micrometroCode.mapOfGDgdjs_46micrometroCode_46GDbtGMObjects2Objects = Hashtable.newFrom({"btGM": gdjs.micrometroCode.GDbtGMObjects2});gdjs.micrometroCode.userFunc0x7176a0 = function(runtimeScene) {
 "use strict";
 //Testa se for zero nao passa
 var res = generateNumberRandom(0, 5.0)
@@ -228,7 +228,7 @@ gdjs.micrometroCode.eventsList0 = function(runtimeScene) {
 {
 
 
-gdjs.micrometroCode.userFunc0x6e1080(runtimeScene);
+gdjs.micrometroCode.userFunc0x7176a0(runtimeScene);
 
 }
 
@@ -402,7 +402,7 @@ gdjs.micrometroCode.condition0IsTrue_0.val = gdjs.evtTools.input.cursorOnObject(
 }if ( gdjs.micrometroCode.condition0IsTrue_0.val ) {
 {
 {gdjs.micrometroCode.conditionTrue_1 = gdjs.micrometroCode.condition1IsTrue_0;
-gdjs.micrometroCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(8330020);
+gdjs.micrometroCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(8361452);
 }
 }}
 if (gdjs.micrometroCode.condition1IsTrue_0.val) {
@@ -429,7 +429,7 @@ gdjs.micrometroCode.condition0IsTrue_0.val = gdjs.evtTools.input.cursorOnObject(
 }if ( gdjs.micrometroCode.condition0IsTrue_0.val ) {
 {
 {gdjs.micrometroCode.conditionTrue_1 = gdjs.micrometroCode.condition1IsTrue_0;
-gdjs.micrometroCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(8331732);
+gdjs.micrometroCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(8363164);
 }
 }}
 if (gdjs.micrometroCode.condition1IsTrue_0.val) {
@@ -653,6 +653,32 @@ gdjs.copyArray(runtimeScene.getObjects("escalaReguaBase"), gdjs.micrometroCode.G
 }
 }{for(var i = 0, len = gdjs.micrometroCode.GDescalaReguaBaseObjects2.length ;i < len;++i) {
     gdjs.micrometroCode.GDescalaReguaBaseObjects2[i].returnVariable(gdjs.micrometroCode.GDescalaReguaBaseObjects2[i].getVariables().get("tamEscala")).setNumber(500);
+}
+}}
+
+}
+
+
+{
+
+gdjs.copyArray(runtimeScene.getObjects("Tambor"), gdjs.micrometroCode.GDTamborObjects2);
+
+gdjs.micrometroCode.condition0IsTrue_0.val = false;
+{
+for(var i = 0, k = 0, l = gdjs.micrometroCode.GDTamborObjects2.length;i<l;++i) {
+    if ( gdjs.micrometroCode.GDTamborObjects2[i].getVariableNumber(gdjs.micrometroCode.GDTamborObjects2[i].getVariables().get("medicaoTamborVal")) > 0.80 ) {
+        gdjs.micrometroCode.condition0IsTrue_0.val = true;
+        gdjs.micrometroCode.GDTamborObjects2[k] = gdjs.micrometroCode.GDTamborObjects2[i];
+        ++k;
+    }
+}
+gdjs.micrometroCode.GDTamborObjects2.length = k;}if (gdjs.micrometroCode.condition0IsTrue_0.val) {
+gdjs.copyArray(runtimeScene.getObjects("escalaReguaBase"), gdjs.micrometroCode.GDescalaReguaBaseObjects2);
+{for(var i = 0, len = gdjs.micrometroCode.GDescalaReguaBaseObjects2.length ;i < len;++i) {
+    gdjs.micrometroCode.GDescalaReguaBaseObjects2[i].setWidth(510);
+}
+}{for(var i = 0, len = gdjs.micrometroCode.GDescalaReguaBaseObjects2.length ;i < len;++i) {
+    gdjs.micrometroCode.GDescalaReguaBaseObjects2[i].returnVariable(gdjs.micrometroCode.GDescalaReguaBaseObjects2[i].getVariables().get("tamEscala")).setNumber(510);
 }
 }}
 
